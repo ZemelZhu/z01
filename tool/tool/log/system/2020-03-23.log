@@ -1,0 +1,127 @@
+2020-03-23 23:10:53,876|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 11864 (started by 13265 in F:\code\Z01\server\z01\tool)
+2020-03-23 23:10:53,877|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-03-23 23:10:54,497|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-23 23:10:54,500|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-23 23:10:54,530|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-03-23 23:10:54,960|INFO |main|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-23 23:10:55,145|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-03-23 23:10:55,331|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-03-23 23:10:55,338|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-03-23 23:10:55,498|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+core_player   tableName 
+2020-03-23 23:10:55,512|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+core_room   tableName 
+2020-03-23 23:10:55,515|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+core_server_cluster   tableName 
+2020-03-23 23:10:55,518|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+mall_admin_user   tableName 
+2020-03-23 23:10:55,521|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+mall_commodity   tableName 
+2020-03-23 23:10:55,524|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+mall_mall_user   tableName 
+2020-03-23 23:10:55,526|ERROR|main|Caller+0	 at com.zemel.tool.generate.AbstractDbConnectionHelp.getTableInfos(AbstractDbConnectionHelp.java:44)
+mall_product_order   tableName 
+2020-03-23 23:10:55,530|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-03-23 23:10:55,531|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table RoomInfo success
+2020-03-23 23:10:55,532|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table ServerClusterInfo success
+2020-03-23 23:10:55,533|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table AdminUserInfo success
+2020-03-23 23:10:55,534|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table CommodityInfo success
+2020-03-23 23:10:55,535|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table MallUserInfo success
+2020-03-23 23:10:55,536|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table ProductOrderInfo success
+2020-03-23 23:10:55,537|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-03-23 23:10:55,918|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-23 23:10:55,998|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-03-23 23:10:56,860|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-03-23 23:10:56,863|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-03-23 23:10:56,874|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-03-23 23:10:56,874|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-03-23 23:10:56,875|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-03-23 23:10:56,876|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-03-23 23:10:56,876|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-03-23 23:10:56,876|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-03-23 23:10:56,877|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3e53c4ad
+2020-03-23 23:10:57,175|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-03-23 23:10:57,175|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-03-23 23:10:57,183|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 3.733 seconds (JVM running for 4.634)
+2020-03-23 23:10:57,521|ERROR|main|Caller+0	 at com.zemel.tool.proto.ProtobufTest.test(ProtobufTest.java:29)
+bytes:[8, -1, -1, -1, -1, 7, 18, 7, 8, 1, 18, 3, 49, 50, 51]
+2020-03-23 23:10:57,564|ERROR|main|Caller+0	 at com.zemel.tool.proto.ProtobufTest.test(ProtobufTest.java:33)
+code: 1
+2: 1
+
+2020-03-23 23:10:57,574|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:308)
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zemel.tool.thread.ThreadTest], using SpringBootContextLoader
+2020-03-23 23:10:57,574|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations(AbstractContextLoader.java:264)
+Could not detect default resource locations for test class [com.zemel.tool.thread.ThreadTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-23 23:10:57,575|INFO |main|Caller+0	 at org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses(AnnotationConfigContextLoaderUtils.java:83)
+Could not detect default configuration classes for test class [com.zemel.tool.thread.ThreadTest]: ThreadTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-23 23:10:57,578|INFO |main|Caller+0	 at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:235)
+Found @SpringBootConfiguration com.zemel.tool.ToolApplication for test class com.zemel.tool.thread.ThreadTest
+2020-03-23 23:10:57,579|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-03-23 23:10:57,579|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:177)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4b5ad306, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@54be6213, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48a46b0f, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1426370c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@9f9146d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@2ef041bb, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@45e7bb79, org.springframework.test.context.event.EventPublishingTestExecutionListener@605c7a9e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@21c75084, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d16209e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@75527e36, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@76596288, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6d815fb7]
+2020-03-23 23:10:57,586|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:308)
+Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.zemel.tool.ToolApplicationTests], using SpringBootContextLoader
+2020-03-23 23:10:57,587|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractContextLoader.generateDefaultLocations(AbstractContextLoader.java:264)
+Could not detect default resource locations for test class [com.zemel.tool.ToolApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-03-23 23:10:57,587|INFO |main|Caller+0	 at org.springframework.test.context.support.AnnotationConfigContextLoaderUtils.detectDefaultConfigurationClasses(AnnotationConfigContextLoaderUtils.java:83)
+Could not detect default configuration classes for test class [com.zemel.tool.ToolApplicationTests]: ToolApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-03-23 23:10:57,591|INFO |main|Caller+0	 at org.springframework.boot.test.context.SpringBootTestContextBootstrapper.getOrFindConfigurationClasses(SpringBootTestContextBootstrapper.java:235)
+Found @SpringBootConfiguration com.zemel.tool.ToolApplication for test class com.zemel.tool.ToolApplicationTests
+2020-03-23 23:10:57,593|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(AbstractTestContextBootstrapper.java:248)
+Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-03-23 23:10:57,593|INFO |main|Caller+0	 at org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(AbstractTestContextBootstrapper.java:177)
+Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7e050be1, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1b47b7f5, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@506aa618, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4b6b5352, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d6713dd, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3b39e79b, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3ee6dc82, org.springframework.test.context.event.EventPublishingTestExecutionListener@2f86f9cf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@adafe19, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7e2bd5e6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@76a1146d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6ef1c3f7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3386c206]
+2020-03-23 23:10:57,618|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-23 23:10:57,625|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-03-23 23:10:57,625|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-03-23 23:10:57,625|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-23 23:10:57,626|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-03-23 23:10:57,637|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-23 23:10:57,643|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed

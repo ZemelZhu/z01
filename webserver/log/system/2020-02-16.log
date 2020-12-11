@@ -1,0 +1,83 @@
+2020-02-16 15:04:23,548|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting WebserverApplication on DESKTOP-3EKU3ND with PID 11004 (F:\code\Z01\server\z01\webserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-02-16 15:04:23,552|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-16 15:04:24,460|INFO |main|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8082 (http)
+2020-02-16 15:04:24,468|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8082"]
+2020-02-16 15:04:24,468|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-02-16 15:04:24,469|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-16 15:04:24,548|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-02-16 15:04:24,548|INFO |main|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 954 ms
+2020-02-16 15:04:24,637|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-16 15:04:24,638|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-16 15:04:24,644|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-16 15:04:24,645|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-16 15:04:24,645|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-16 15:04:24,646|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-16 15:04:24,646|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-16 15:04:24,646|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-16 15:04:24,647|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@31dfc6f5
+2020-02-16 15:04:24,673|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-16 15:04:24,788|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-16 15:04:25,119|ERROR|main|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:49)
+init method getA1
+2020-02-16 15:04:25,476|ERROR|main|Caller+0	 at com.zemel.framework.socket.netty.net.AbstractNettyAdapter.start(AbstractNettyAdapter.java:38)
+netty start5001
+2020-02-16 15:04:25,585|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-16 15:04:25,788|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-16 15:04:25,788|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-16 15:04:25,794|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8082"]
+2020-02-16 15:04:25,805|INFO |main|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8082 (http) with context path ''
+2020-02-16 15:04:25,808|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started WebserverApplication in 2.833 seconds (JVM running for 3.444)
+2020-02-16 15:05:01,737|INFO |http-nio-8082-exec-1|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-16 15:05:01,737|INFO |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-02-16 15:05:01,742|INFO |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 5 ms
+2020-02-16 15:05:01,779|WARN |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199)
+Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""]
+2020-02-16 20:17:07,112|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-16 20:17:07,114|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-16 20:17:07,115|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-16 20:17:07,116|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-16 20:17:07,116|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-16 20:17:07,122|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-16 20:17:07,122|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler

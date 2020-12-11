@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+package LoginMsg;
+message PlayerInfoPB {
+    LoginCmdType type= 1;    // 消息类型
+
+}
+message LoginMsgCS{
+    int32 userID = 1; //account name
+     string password = 2; // nickname
+}
+message User {
+    int32 uid = 1;
+    string password = 2;
+}
+enum LoginCmdType{
+    Msg =0;         // 消息
+    Login = 1;      // 登陆
+    NewFriend=3;    // 新好友
+    Error = 4;      // 错误
+    Ping = 5;       // 心跳
+}
+message ServerLoginMsg {
+    int32 serverId = 1;
+
+}

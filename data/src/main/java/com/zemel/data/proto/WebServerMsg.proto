@@ -1,0 +1,13 @@
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+enum MessageType{
+    Msg =0;         // 消息
+    Login = 1;      // 登陆
+    NewFriend=3;    // 新好友
+    Error = 4;      // 错误
+    Ping = 5;       // 心跳
+}
+message NotifyWebServer{
+    MessageType type= 1;    // 消息类型
+    int32 id = 2;
+}

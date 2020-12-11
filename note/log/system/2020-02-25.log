@@ -1,0 +1,248 @@
+2020-02-25 22:33:19,122|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting NoteApplication on DESKTOP-3EKU3ND with PID 17480 (F:\code\Z01\server\z01\note\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-02-25 22:33:19,124|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-25 22:33:19,930|INFO |main|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 22:33:19,942|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.<init>(MyInstantiationAwareBeanPostProcessor.java:21)
+这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！
+2020-02-25 22:33:20,145|INFO |main|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8085 (http)
+2020-02-25 22:33:20,153|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8085"]
+2020-02-25 22:33:20,153|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-02-25 22:33:20,153|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-25 22:33:20,223|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-02-25 22:33:20,223|INFO |main|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1040 ms
+2020-02-25 22:33:20,346|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-25 22:33:20,449|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-25 22:33:20,766|WARN |main|Caller+0	 at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlServices': Invocation of init method failed; nested exception is java.lang.NullPointerException
+2020-02-25 22:33:20,767|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-25 22:33:20,769|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Stopping service [Tomcat]
+2020-02-25 22:33:20,776|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136)
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 22:33:20,783|ERROR|main|Caller+0	 at org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:826)
+Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'mysqlServices': Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zemel.note.NoteApplication.main(NoteApplication.java:14)
+Caused by: java.lang.NullPointerException: null
+	at com.zemel.note.mysql.MysqlServices.init(MysqlServices.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	... 18 common frames omitted
+2020-02-25 22:33:41,678|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting NoteApplication on DESKTOP-3EKU3ND with PID 24148 (F:\code\Z01\server\z01\note\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-02-25 22:33:41,681|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-25 22:33:42,261|INFO |main|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 22:33:42,272|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.<init>(MyInstantiationAwareBeanPostProcessor.java:21)
+这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！
+2020-02-25 22:33:42,442|INFO |main|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8085 (http)
+2020-02-25 22:33:42,448|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8085"]
+2020-02-25 22:33:42,449|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-02-25 22:33:42,449|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-25 22:33:42,516|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-02-25 22:33:42,516|INFO |main|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 768 ms
+2020-02-25 22:33:42,631|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-25 22:33:42,722|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-25 22:33:43,148|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==>  Preparing: SELECT id,name,password,create_time,coin,type,time,update_time,status FROM core_player WHERE id=? 
+2020-02-25 22:33:43,165|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==> Parameters: 1(Integer)
+2020-02-25 22:33:43,202|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+<==      Total: 1
+2020-02-25 22:33:43,203|ERROR|main|Caller+0	 at com.zemel.note.mysql.MysqlServices.init(MysqlServices.java:28)
+PlayerInfo(id=1, name=, password=123, createTime=Tue Jan 21 04:34:30 CST 2020, coin=0.00, type=0, time=Tue Jan 21 04:34:30 CST 2020, updateTime=Wed Feb 12 05:21:34 CST 2020, status=0)
+2020-02-25 22:33:43,218|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==>  Preparing: UPDATE core_player SET name=?, password=?, create_time=?, coin=?, type=?, time=?, update_time=?, status=? WHERE id=? 
+2020-02-25 22:33:43,223|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==> Parameters: (String), 123(String), 2020-01-21 04:34:30.0(Timestamp), 1(BigDecimal), 0(Integer), 2020-01-21 04:34:30.0(Timestamp), 2020-02-12 05:21:34.0(Timestamp), 0(Integer), 1(Integer)
+2020-02-25 22:33:43,238|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+<==    Updates: 1
+2020-02-25 22:33:43,249|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation(MyInstantiationAwareBeanPostProcessor.java:29)
+InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法class com.zemel.note.spring.TestBean
+2020-02-25 22:33:43,249|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.<init>(TestBean.java:32)
+TestBean constrance
+2020-02-25 22:33:43,252|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessPropertyValues(MyInstantiationAwareBeanPostProcessor.java:48)
+InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法class com.zemel.note.spring.TestBean
+2020-02-25 22:33:43,252|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation(MyInstantiationAwareBeanPostProcessor.java:29)
+InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法class com.zemel.note.spring.TestBean2
+2020-02-25 22:33:43,253|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.<init>(TestBean2.java:31)
+TestBean2 constrance
+2020-02-25 22:33:43,255|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessPropertyValues(MyInstantiationAwareBeanPostProcessor.java:48)
+InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法class com.zemel.note.spring.TestBean2
+2020-02-25 22:33:43,256|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setBeanName(TestBean2.java:51)
+setBeanName
+2020-02-25 22:33:43,256|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setBeanFactory(TestBean2.java:46)
+setBeanFactory
+2020-02-25 22:33:43,256|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setApplicationContext(TestBean2.java:66)
+setApplicationContext
+2020-02-25 22:33:43,256|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessBeforeInitialization(MyBeanPostProcessor.java:20)
+MyBeanPostProcessor.postProcessBeforeInitializationclass com.zemel.note.spring.TestBean2
+2020-02-25 22:33:43,256|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.init(TestBean2.java:41)
+TestBean2 initA
+2020-02-25 22:33:43,256|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.afterPropertiesSet(TestBean2.java:61)
+afterPropertiesSet
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessAfterInitialization(MyBeanPostProcessor.java:27)
+MyBeanPostProcessor.postProcessAfterInitializationclass com.zemel.note.spring.TestBean2
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessAfterInitialization(MyInstantiationAwareBeanPostProcessor.java:38)
+InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法class com.zemel.note.spring.TestBean2
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setBeanName(TestBean.java:52)
+TestBean setBeanName
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setBeanFactory(TestBean.java:47)
+TestBean setBeanFactory
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setApplicationContext(TestBean.java:67)
+TestBean setApplicationContext
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessBeforeInitialization(MyBeanPostProcessor.java:20)
+MyBeanPostProcessor.postProcessBeforeInitializationclass com.zemel.note.spring.TestBean
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.init(TestBean.java:42)
+TestBean init
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.afterPropertiesSet(TestBean.java:62)
+TestBean afterPropertiesSet
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessAfterInitialization(MyBeanPostProcessor.java:27)
+MyBeanPostProcessor.postProcessAfterInitializationclass com.zemel.note.spring.TestBean
+2020-02-25 22:33:43,257|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessAfterInitialization(MyInstantiationAwareBeanPostProcessor.java:38)
+InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法class com.zemel.note.spring.TestBean
+2020-02-25 22:33:43,395|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-25 22:33:43,602|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-25 22:33:43,603|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-25 22:33:43,609|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-25 22:33:43,610|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-25 22:33:43,610|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-25 22:33:43,611|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-25 22:33:43,611|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-25 22:33:43,611|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-25 22:33:43,611|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3e47a03
+2020-02-25 22:33:43,695|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-25 22:33:43,695|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-25 22:33:43,700|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8085"]
+2020-02-25 22:33:43,716|INFO |main|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8085 (http) with context path ''
+2020-02-25 22:33:43,718|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started NoteApplication in 2.393 seconds (JVM running for 2.858)
+2020-02-25 22:36:22,519|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting NoteApplication on DESKTOP-3EKU3ND with PID 7552 (F:\code\Z01\server\z01\note\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-02-25 22:36:22,522|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-25 22:36:23,122|INFO |main|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-25 22:36:23,133|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.<init>(MyInstantiationAwareBeanPostProcessor.java:21)
+这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！
+2020-02-25 22:36:23,303|INFO |main|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8085 (http)
+2020-02-25 22:36:23,309|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8085"]
+2020-02-25 22:36:23,310|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-02-25 22:36:23,310|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-02-25 22:36:23,377|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-02-25 22:36:23,377|INFO |main|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 788 ms
+2020-02-25 22:36:23,490|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-25 22:36:23,579|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-25 22:36:23,864|WARN |main|Caller+0	 at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558)
+Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mysqlServices': Unsatisfied dependency expressed through field 'playerInfoMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zemel.data.mapping.PlayerInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=PlayerInfoMapper)}
+2020-02-25 22:36:23,864|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-25 22:36:23,866|INFO |main|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Stopping service [Tomcat]
+2020-02-25 22:36:23,873|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136)
+
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-02-25 22:36:23,956|ERROR|main|Caller+0	 at org.springframework.boot.SpringApplication.reportFailure(SpringApplication.java:826)
+Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'mysqlServices': Unsatisfied dependency expressed through field 'playerInfoMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zemel.data.mapping.PlayerInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=PlayerInfoMapper)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:116)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zemel.note.NoteApplication.main(NoteApplication.java:14)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.zemel.data.mapping.PlayerInfoMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true), @org.springframework.beans.factory.annotation.Qualifier(value=PlayerInfoMapper)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 19 common frames omitted

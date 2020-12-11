@@ -1,0 +1,35 @@
+server:
+  port: 8086
+  workerId: 2
+  decenterId: 1
+  dev: true
+  host: 127.0.0.1
+  name: 工具
+spring:
+  profiles:
+    include: common
+
+
+GenerateConfig:
+  packageName: com.zemel.data.entiy
+  isLomBok: true
+  generate: true
+  prefix: "{core:'Info',ts:'Log',mall:'Info'}"
+  commonPrefix: "{common:'Info'}"
+  databasesList: web1
+
+GameServerProtoConfig:
+  inputPath: F:\code\Z01\server\z01\data\src\main\java\com\zemel\data\proto
+  outPutPath: F:\code\Z01\server\z01\data\src\main\java\
+  execPath: F:\code\Z01\server\z01\tool\tool
+  protoName:
+  build: false
+  buildJAVA: true
+  buildJS: false
+  buildCS: true
+
+JSProtoConfig:
+  outPutPath: E:\tool\
+
+CSProtoConfig:
+  outPutPath: F:\code\Z01\client\z01\Assets\Scripts\commons\proto\

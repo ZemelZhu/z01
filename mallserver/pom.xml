@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.zemel</groupId>
+    <artifactId>mallserver</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>mallserver</name>
+    <description>Demo project for Spring Boot</description>
+    <properties>
+        <mallserver.path>${project.build.directory}/mallserver</mallserver.path>
+        <mallserver.log>${project.basedir}/log</mallserver.log>
+        <userName>root</userName>
+        <password>Lin811128</password>
+        <host>120.25.26.183</host>
+        <location>/mallserver/lib</location>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.zemel</groupId>
+            <artifactId>framework</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.zemel</groupId>
+            <artifactId>data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.qiniu</groupId>
+            <artifactId>qiniu-java-sdk</artifactId>
+            <version>7.2.6</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+    <parent>
+        <groupId>com.zemel</groupId>
+        <artifactId>z01</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <build>
+        <finalName>mallServer</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>2.5</version>
+                <executions>
+                    <execution>
+                        <id>auto-clean</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                        <configuration>
+                            <skip>false</skip>
+                            <filesets>
+                                <fileset>
+                                    <directory>${mallserver.path}</directory>
+                                    <directory>${mallserver.log}</directory>
+                                </fileset>
+                            </filesets>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <!--<finalName>myjar</finalName>-->
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <!--MANIFEST.MF 中 Class-Path 加入前缀-->
+                            <classpathPrefix>../lib/</classpathPrefix>
+                            <!--jar包不包含唯一版本标识-->
+                            <useUniqueVersions>false</useUniqueVersions>
+                            <mainClass>com.zemel.mallserver.MallserverApplication</mainClass>
+                        </manifest>
+                        <manifestEntries>
+                            <Class-Path>../config/</Class-Path>
+                        </manifestEntries>
+                    </archive>
+                    <!--不打包资源文件-->
+                    <excludes>
+                        <exclude>*/*.xml</exclude>
+                        <exclude>*/*/*.xml</exclude>
+                    </excludes>
+                    <outputDirectory>${mallserver.path}/lib/</outputDirectory>
+                </configuration>
+            </plugin>
+            <!--拷贝依赖 copy-dependencies-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${mallserver.path}/lib/</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--拷贝资源文件 copy-resources-->
+            <plugin>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/resources</directory>
+                                </resource>
+                            </resources>
+                            <outputDirectory>${mallserver.path}/config</outputDirectory>
+                        </configuration>
+                    </execution>
+                    <!--copy 脚本，把bin目录下的文件复制到，打包目录下-->
+                    <execution>
+                        <id>bin</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                        <configuration>
+                            <resources>
+                                <resource>
+                                    <directory>bin</directory>
+                                </resource>
+                            </resources>
+                            <outputDirectory>${mallserver.path}/bin</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!--maven打包时，跳过测试-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>com.zemel</groupId>-->
+<!--                <artifactId>myplugin</artifactId>-->
+<!--                <version>0.0.1-SNAPSHOT</version>-->
+<!--                <configuration>-->
+<!--                    <path>${mallserver.path}</path>-->
+<!--                    <userName>${userName}</userName>-->
+<!--                    <password>${password}</password>-->
+<!--                    <host>${host}</host>-->
+<!--                    <location>${location}</location>-->
+<!--                    <options>-->
+<!--                        <option>${mallserver.path}/lib/mallServer.jar</option>-->
+<!--                        <option>${mallserver.path}/lib/data-1.0-SNAPSHOT.jar</option>-->
+<!--                        <option>${mallserver.path}/lib/framework-1.0-SNAPSHOT.jar</option>-->
+<!--                    </options>-->
+<!--                </configuration>-->
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <phase>package</phase>-->
+<!--                        <goals>-->
+<!--                            <goal>DeployAllMoJo</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
+<!--            </plugin>-->
+            <!--            <plugin>-->
+            <!--                <groupId>org.springframework.boot</groupId>-->
+            <!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+            <!--                <configuration>-->
+            <!--                    &lt;!&ndash; 指定该Main Class为全局的唯一入口 &ndash;&gt;-->
+            <!--                    <mainClass>com.zemel.mallserver.MallserverApplication</mainClass>-->
+            <!--                    <layout>ZIP</layout>-->
+            <!--                    <includes>-->
+            <!--                        &lt;!&ndash; 设置没有jar包&ndash;&gt;-->
+            <!--                        <include>-->
+            <!--                            <groupId>nothing</groupId>-->
+            <!--                            <artifactId>nothing</artifactId>-->
+            <!--                        </include>-->
+            <!--                    </includes>-->
+            <!--                </configuration>-->
+            <!--                <executions>-->
+            <!--                    <execution>-->
+            <!--                        <goals>-->
+            <!--                            <goal>repackage</goal>&lt;!&ndash;可以把依赖的包都打包到生成的Jar包中&ndash;&gt;-->
+            <!--                        </goals>-->
+            <!--                    </execution>-->
+            <!--                </executions>-->
+            <!--            </plugin>-->
+        </plugins>
+    </build>
+</project>

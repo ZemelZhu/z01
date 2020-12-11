@@ -1,0 +1,8 @@
+2020-05-02 14:43:32,489|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting WebserverApplication on DESKTOP-3EKU3ND with PID 13576 (F:\code\Z01\server\z01\webserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-05-02 14:43:32,516|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-05-02 14:43:32,557|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-02 14:43:32,557|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'

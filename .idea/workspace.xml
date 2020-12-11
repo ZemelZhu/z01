@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9c86e76b-4ffa-4b19-9bf6-51b6094fa34a" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myFlattenPackages" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="z01" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaeeView">
+    <option name="frameworksView" value="false" />
+  </component>
+  <component name="KotlinCompilerWorkspaceSettings">
+    <option name="preciseIncrementalEnabled" value="false" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="F:/tool/java/maven3.6.1/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\tool\java\maven3.6.1\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-Dfile.encoding=GB2312" />
+  </component>
+  <component name="ProjectId" id="1WA0vmT6942tYZ3n9LAh7NTm1as" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/note" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zemel.design.controller" />
+      <recent name="com.zemel.framework.component" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zemel.web1" />
+      <recent name="com.zemel.framework.bean" />
+      <recent name="com.zemel.tool.proto" />
+      <recent name="com.zemel.framework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\Z01\server\z01\web2\src\main\resources" />
+      <recent name="F:\code\Z01\server\z01\web_framework\src\main\java\com\zemel\web_framework" />
+      <recent name="F:\code\Z01\server\z01\web_framework\src\main\java\com\zemel\web_framework\model" />
+      <recent name="F:\code\Z01\server\z01\web_framework\src\main\java\com\zemel\web_framework\controller" />
+      <recent name="F:\code\Z01\server\z01\web1\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zemel.web2" />
+      <recent name="com.zemel.design.interceptor" />
+      <recent name="com.zemel.design.config" />
+      <recent name="com.zemel.mallserver.interceptor" />
+      <recent name="com.zemel.framework.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\java\idea\z01\gameserver\src\main\resources\proto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install:install-file -Dfile=C:\Program Files\Java\jdk1.8.0_221\lib\tools.jar -DgroupId=jdk.tools -DartifactId=jdk.tools -Dversion=1.8 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=C:\Program Files\Java\jdk1.8.0_221\lib\tools.jar -DgroupId=jdk.tools -DartifactId=jdk-tools -Dversion=1.8 -Dpackaging=jar" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyThread">
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.note.thread.MyThread" />
+      <module name="note" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemel.note.thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QRCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.web_framework.utils.QRCodeUtils" />
+      <module name="web_framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemel.web_framework.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QiNiuYunService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.mallserver.services.common.QiNiuYunService" />
+      <module name="mallserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemel.mallserver.services.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QiNiuYunService1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.mallserver.services.common.QiNiuYunService1" />
+      <module name="mallserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemel.mallserver.services.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServletUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.framework.until.ServletUtil" />
+      <module name="framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemel.framework.until.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="120.25.26.183" type="Remote">
+      <module name="web1" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="39.99.232.26" />
+      <option name="PORT" value="7788" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="7788" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="DesignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="design" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.design.DesignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gameserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.gameserver.GameserverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MallserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mallserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.mallserver.MallserverApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tool" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.tool.ToolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.web1.Web1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Web2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.web2.Web2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebFrameworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web_framework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.web_framework.WebFrameworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebserverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="webserver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zemel.webserver.WebserverApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="UPDATE_ACTION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.QRCodeUtils" />
+      <item itemvalue="Application.ServletUtil" />
+      <item itemvalue="Application.QiNiuYunService" />
+      <item itemvalue="Application.QiNiuYunService1" />
+      <item itemvalue="Application.MyThread" />
+      <item itemvalue="Remote.120.25.26.183" />
+      <item itemvalue="Spring Boot.GameserverApplication" />
+      <item itemvalue="Spring Boot.ToolApplication" />
+      <item itemvalue="Spring Boot.WebserverApplication" />
+      <item itemvalue="Spring Boot.MallserverApplication" />
+      <item itemvalue="Spring Boot.DesignApplication" />
+      <item itemvalue="Spring Boot.WebFrameworkApplication" />
+      <item itemvalue="Spring Boot.Web1Application" />
+      <item itemvalue="Spring Boot.Web2Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyThread" />
+        <item itemvalue="Application.QiNiuYunService1" />
+        <item itemvalue="Application.QiNiuYunService" />
+        <item itemvalue="Application.ServletUtil" />
+        <item itemvalue="Application.QRCodeUtils" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c86e76b-4ffa-4b19-9bf6-51b6094fa34a" name="Default Changelist" comment="" />
+      <created>1578577324777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578577324777</updated>
+      <workItem from="1578577327575" duration="5272000" />
+      <workItem from="1578747414546" duration="4352000" />
+      <workItem from="1578836559155" duration="6952000" />
+      <workItem from="1578920128158" duration="7188000" />
+      <workItem from="1579006217086" duration="1313000" />
+      <workItem from="1579007561286" duration="2557000" />
+      <workItem from="1579152801678" duration="23545000" />
+      <workItem from="1579269302841" duration="2868000" />
+      <workItem from="1579356510211" duration="3262000" />
+      <workItem from="1579446189141" duration="2880000" />
+      <workItem from="1579519461112" duration="11417000" />
+      <workItem from="1581135316096" duration="1785000" />
+      <workItem from="1581137451362" duration="167000" />
+      <workItem from="1581137738994" duration="57000" />
+      <workItem from="1581137808775" duration="32355000" />
+      <workItem from="1581216854569" duration="38940000" />
+      <workItem from="1581300015164" duration="11770000" />
+      <workItem from="1581316829895" duration="8884000" />
+      <workItem from="1581403064917" duration="7000" />
+      <workItem from="1581403084150" duration="6746000" />
+      <workItem from="1581480327889" duration="14000" />
+      <workItem from="1581480364223" duration="29000" />
+      <workItem from="1581480410684" duration="26000" />
+      <workItem from="1581483822479" duration="28000" />
+      <workItem from="1581483867918" duration="7560000" />
+      <workItem from="1581500558809" duration="7634000" />
+      <workItem from="1581564600286" duration="18090000" />
+      <workItem from="1581656303409" duration="18092000" />
+      <workItem from="1581741536428" duration="410000" />
+      <workItem from="1581742838539" duration="13051000" />
+      <workItem from="1581822844623" duration="9634000" />
+      <workItem from="1581912209455" duration="15058000" />
+      <workItem from="1582003232170" duration="8332000" />
+      <workItem from="1582035959256" duration="703000" />
+      <workItem from="1582082367136" duration="2600000" />
+      <workItem from="1582173819942" duration="958000" />
+      <workItem from="1582209497150" duration="2713000" />
+      <workItem from="1582268339030" duration="11033000" />
+      <workItem from="1582338795590" duration="16929000" />
+      <workItem from="1582441649626" duration="1444000" />
+      <workItem from="1582509766135" duration="6886000" />
+      <workItem from="1582598995812" duration="650000" />
+      <workItem from="1582601521710" duration="825000" />
+      <workItem from="1582640875202" duration="1218000" />
+      <workItem from="1582862465325" duration="5603000" />
+      <workItem from="1582951431561" duration="2820000" />
+      <workItem from="1583038730098" duration="10235000" />
+      <workItem from="1583120703106" duration="8357000" />
+      <workItem from="1583215396777" duration="7735000" />
+      <workItem from="1583248965061" duration="1778000" />
+      <workItem from="1583300477782" duration="27765000" />
+      <workItem from="1583381320461" duration="33126000" />
+      <workItem from="1583468061857" duration="3462000" />
+      <workItem from="1583549300312" duration="6148000" />
+      <workItem from="1583638626628" duration="3167000" />
+      <workItem from="1583731848051" duration="599000" />
+      <workItem from="1583747732064" duration="1290000" />
+      <workItem from="1583815504029" duration="120000" />
+      <workItem from="1583934237710" duration="2122000" />
+      <workItem from="1583943686620" duration="656000" />
+      <workItem from="1583992642363" duration="3989000" />
+      <workItem from="1584025139585" duration="1248000" />
+      <workItem from="1584161597000" duration="850000" />
+      <workItem from="1584171525439" duration="1755000" />
+      <workItem from="1584180542869" duration="1166000" />
+      <workItem from="1584193825187" duration="616000" />
+      <workItem from="1584718004197" duration="1868000" />
+      <workItem from="1584754227179" duration="697000" />
+      <workItem from="1584754938124" duration="545000" />
+      <workItem from="1584755498243" duration="1078000" />
+      <workItem from="1584757386046" duration="1844000" />
+      <workItem from="1584759247337" duration="482000" />
+      <workItem from="1584759745430" duration="467000" />
+      <workItem from="1584760226283" duration="485000" />
+      <workItem from="1584760725003" duration="2270000" />
+      <workItem from="1584763018122" duration="571000" />
+      <workItem from="1584763609280" duration="194000" />
+      <workItem from="1584763815509" duration="1560000" />
+      <workItem from="1584765809934" duration="19961000" />
+      <workItem from="1584799468935" duration="129000" />
+      <workItem from="1584799610462" duration="229000" />
+      <workItem from="1584799877091" duration="295000" />
+      <workItem from="1584800201212" duration="281000" />
+      <workItem from="1584800511985" duration="1322000" />
+      <workItem from="1584844644580" duration="17854000" />
+      <workItem from="1584974422202" duration="4841000" />
+      <workItem from="1585144871638" duration="4650000" />
+      <workItem from="1585226054363" duration="5608000" />
+      <workItem from="1585315204865" duration="8418000" />
+      <workItem from="1585451387255" duration="22162000" />
+      <workItem from="1585663138643" duration="3967000" />
+      <workItem from="1585750322651" duration="3037000" />
+      <workItem from="1585831298708" duration="7999000" />
+      <workItem from="1585916382732" duration="8788000" />
+      <workItem from="1585971738270" duration="31801000" />
+      <workItem from="1586054020586" duration="31418000" />
+      <workItem from="1586153078172" duration="17382000" />
+      <workItem from="1586264589310" duration="2689000" />
+      <workItem from="1587129068163" duration="1033000" />
+      <workItem from="1587286763864" duration="3966000" />
+      <workItem from="1587290796360" duration="2503000" />
+      <workItem from="1587470434280" duration="396000" />
+      <workItem from="1587802581913" duration="597000" />
+      <workItem from="1587907022117" duration="2629000" />
+      <workItem from="1588256077968" duration="582000" />
+      <workItem from="1588256695761" duration="1553000" />
+      <workItem from="1588295603764" duration="34479000" />
+      <workItem from="1588382899396" duration="29780000" />
+      <workItem from="1588467438911" duration="34317000" />
+      <workItem from="1588565821376" duration="26536000" />
+      <workItem from="1588648307119" duration="7780000" />
+      <workItem from="1588660074492" duration="220000" />
+      <workItem from="1588660306603" duration="10539000" />
+      <workItem from="1588686441974" duration="3629000" />
+      <workItem from="1588769658344" duration="6240000" />
+      <workItem from="1589089172369" duration="4768000" />
+      <workItem from="1589603876544" duration="20234000" />
+      <workItem from="1589692333350" duration="717000" />
+      <workItem from="1589982286837" duration="2266000" />
+      <workItem from="1590157310713" duration="1358000" />
+      <workItem from="1590244476459" duration="366000" />
+      <workItem from="1590288626071" duration="4618000" />
+      <workItem from="1590421490321" duration="756000" />
+      <workItem from="1590674830819" duration="6253000" />
+      <workItem from="1591706843202" duration="2000" />
+      <workItem from="1591706912814" duration="678000" />
+      <workItem from="1591879783649" duration="3415000" />
+      <workItem from="1592238562940" duration="634000" />
+      <workItem from="1593094870377" duration="4455000" />
+      <workItem from="1593160068631" duration="4228000" />
+      <workItem from="1593185101105" duration="870000" />
+      <workItem from="1593227012526" duration="3405000" />
+      <workItem from="1593607461913" duration="1842000" />
+      <workItem from="1593837857702" duration="6293000" />
+      <workItem from="1593920181623" duration="6325000" />
+      <workItem from="1594125856399" duration="4306000" />
+      <workItem from="1594214905722" duration="1346000" />
+      <workItem from="1594299088192" duration="5996000" />
+      <workItem from="1594556299472" duration="5707000" />
+      <workItem from="1594731445703" duration="702000" />
+      <workItem from="1594733699895" duration="2601000" />
+      <workItem from="1594736800914" duration="1181000" />
+      <workItem from="1594738186816" duration="3071000" />
+      <workItem from="1594815031873" duration="1056000" />
+      <workItem from="1594816107502" duration="12790000" />
+      <workItem from="1594899915866" duration="5830000" />
+      <workItem from="1594905841225" duration="10024000" />
+      <workItem from="1594985148392" duration="15725000" />
+      <workItem from="1595039495974" duration="23576000" />
+      <workItem from="1595064553917" duration="77000" />
+      <workItem from="1595064736337" duration="514000" />
+      <workItem from="1595065795027" duration="748000" />
+      <workItem from="1595071737557" duration="738000" />
+      <workItem from="1595080839552" duration="4464000" />
+      <workItem from="1595132875929" duration="11093000" />
+      <workItem from="1595252962191" duration="7832000" />
+      <workItem from="1595338266786" duration="6355000" />
+      <workItem from="1595752596400" duration="5117000" />
+      <workItem from="1595762300705" duration="2189000" />
+      <workItem from="1595854992053" duration="8144000" />
+      <workItem from="1595943554359" duration="3201000" />
+      <workItem from="1596027263571" duration="3641000" />
+      <workItem from="1596246832714" duration="14720000" />
+      <workItem from="1596345664649" duration="2101000" />
+      <workItem from="1596376074134" duration="6376000" />
+      <workItem from="1596459687347" duration="7948000" />
+      <workItem from="1596470311596" duration="43000" />
+      <workItem from="1596545727733" duration="6304000" />
+      <workItem from="1596554084565" duration="357000" />
+      <workItem from="1596628130508" duration="10795000" />
+      <workItem from="1596715988461" duration="6903000" />
+      <workItem from="1596809702188" duration="7000" />
+      <workItem from="1596810621269" duration="31000" />
+      <workItem from="1596810673246" duration="77000" />
+      <workItem from="1596814097578" duration="709000" />
+      <workItem from="1596897367131" duration="2410000" />
+      <workItem from="1596953567429" duration="4538000" />
+      <workItem from="1597069820244" duration="1662000" />
+      <workItem from="1597072212618" duration="99000" />
+      <workItem from="1597143642620" duration="4045000" />
+      <workItem from="1597497698566" duration="1069000" />
+      <workItem from="1597555527632" duration="2823000" />
+      <workItem from="1597749212209" duration="8967000" />
+      <workItem from="1597840104692" duration="927000" />
+      <workItem from="1598009445207" duration="842000" />
+      <workItem from="1598274242657" duration="4407000" />
+      <workItem from="1598534960039" duration="976000" />
+      <workItem from="1598676760319" duration="444000" />
+      <workItem from="1599139305548" duration="3828000" />
+      <workItem from="1599145146807" duration="1255000" />
+      <workItem from="1599751470601" duration="1429000" />
+      <workItem from="1599825769407" duration="1402000" />
+      <workItem from="1599980492093" duration="1280000" />
+      <workItem from="1600084000481" duration="2573000" />
+      <workItem from="1601205466258" duration="2561000" />
+      <workItem from="1602505411649" duration="7424000" />
+      <workItem from="1602590249037" duration="2540000" />
+      <workItem from="1603284719141" duration="1487000" />
+      <workItem from="1604325689553" duration="601000" />
+      <workItem from="1604490710314" duration="930000" />
+      <workItem from="1606041874802" duration="2000" />
+      <workItem from="1606317445706" duration="506000" />
+      <workItem from="1606821693730" duration="637000" />
+      <workItem from="1606875570380" duration="276000" />
+      <workItem from="1606913177976" duration="3440000" />
+      <workItem from="1607699935172" duration="666000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.2.RELEASE/spring-context-5.2.2.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class</url>
+          <line>485</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/note/src/main/java/com/zemel/note/mybatis/MybatisController.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/note/src/main/java/com/zemel/note/Collection/MyCollection.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.4/commons-io-2.4.jar!/org/apache/commons/io/FileUtils.class</url>
+          <line>794</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mallserver/src/main/java/com/zemel/mallserver/controller/mall/MallOrderController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/component/ITimerComponent.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mallserver/src/main/java/com/zemel/mallserver/services/common/MallLabelService.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mallserver/src/main/java/com/zemel/mallserver/services/common/CommodityService.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mallserver/src/main/java/com/zemel/mallserver/services/common/MallLabelService.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web_framework/src/main/java/com/zemel/web_framework/security/JwtLoginFilter.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web_framework/src/main/java/com/zemel/web_framework/utils/HttpUtils.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/interceptor/Interceptor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web_framework/src/main/java/com/zemel/web_framework/security/JwtLoginFilter.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web_framework/src/main/java/com/zemel/web_framework/component/LoginComponent.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/controller/DiyController.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/controller/SystemController.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mallserver/src/main/java/com/zemel/mallserver/services/common/QiNiuYunService.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/controller/DiyController.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
+          <line>836</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/until/ServletUtil.java</url>
+          <line>86</line>
+          <properties class="com.zemel.framework.until.ServletUtil" method="main" />
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((JarFile)((JarFileEntry)agentJar.manEntry).this$0).name" custom="java.util.jar.JarFile.JarFileEntry,java.util.jar.JarFile" />
+        <watch expression="((MessageBytes)((Request)((RequestFacade)request).request).requestDispatcherPath).charC" custom="org.apache.catalina.connector.Request,org.apache.catalina.connector.RequestFacade,org.apache.tomcat.util.buf.MessageBytes" />
+        <watch expression="((java.util.concurrent.ConcurrentHashMap)((Request)((RequestFacade)((ServletServerHttpRequest)request).servletRequest).request).attributes).entrySet().toArray()[0]" custom="java.util.concurrent.ConcurrentHashMap,org.apache.catalina.connector.Request,org.apache.catalina.connector.RequestFacade,org.springframework.http.server.ServletServerHttpRequest" />
+        <watch expression="authentication" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/z01$WebserverApplication.ic" NAME="WebserverApplication Coverage Results" MODIFIED="1589645550644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/z01$ToolApplication.ic" NAME="ToolApplication Coverage Results" MODIFIED="1594740267811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/z01$DesignApplication.ic" NAME="DesignApplication Coverage Results" MODIFIED="1594820772494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/z01$MallserverApplication.ic" NAME="MallserverApplication Coverage Results" MODIFIED="1594125977708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

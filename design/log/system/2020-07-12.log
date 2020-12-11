@@ -1,0 +1,1458 @@
+2020-07-12 21:49:10,451|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 15876 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 21:49:10,451|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 21:49:10,498|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 21:49:10,498|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 21:49:11,409|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 21:49:11,412|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 21:49:11,438|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-07-12 21:49:11,577|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 21:49:11,749|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 21:49:12,202|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 21:49:12,218|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 21:49:12,218|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 21:49:12,218|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 21:49:12,390|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 21:49:12,390|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1892 ms
+2020-07-12 21:49:12,952|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 21:49:13,124|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 21:49:13,202|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 21:49:13,935|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 21:49:13,935|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 21:49:13,951|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@271610f2
+2020-07-12 21:49:14,014|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 21:49:14,076|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 21:49:14,076|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 21:49:14,076|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 21:49:14,092|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 21:49:14,107|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 4.277 seconds (JVM running for 5.129)
+2020-07-12 22:10:52,468|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 276 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:10:52,484|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:10:52,515|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 22:10:52,515|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 22:10:53,378|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:10:53,378|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:10:53,394|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2020-07-12 22:10:53,550|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:10:53,737|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:10:54,065|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:10:54,081|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:10:54,081|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:10:54,081|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:10:54,206|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:10:54,206|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1691 ms
+2020-07-12 22:10:54,503|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:10:54,596|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:10:54,628|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:10:54,721|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:10:54,785|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 22:10:55,269|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:10:55,269|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:10:55,285|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5fe6506e
+2020-07-12 22:10:55,394|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:10:55,410|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:10:55,425|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:10:55,441|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:10:55,441|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:10:55,441|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:10:55,456|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:10:55,472|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 3.485 seconds (JVM running for 4.721)
+2020-07-12 22:11:02,444|INFO |http-nio-8081-exec-1|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-12 22:11:02,444|INFO |http-nio-8081-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-07-12 22:11:02,450|INFO |http-nio-8081-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 6 ms
+2020-07-12 22:19:59,112|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:19:59,115|INFO |Thread-10|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:19:59,115|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:19:59,115|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:19:59,115|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:19:59,129|INFO |Thread-10|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-07-12 22:19:59,129|INFO |Thread-10|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:19:59,313|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 276 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:19:59,313|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:19:59,657|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:19:59,657|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:19:59,657|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:19:59,688|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:19:59,704|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:19:59,719|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:19:59,797|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:19:59,797|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:19:59,797|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:19:59,797|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:19:59,829|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:19:59,829|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 500 ms
+2020-07-12 22:19:59,907|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:19:59,954|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:19:59,954|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:19:59,985|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:20:00,000|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-2} inited
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:20:00,094|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@601e254e
+2020-07-12 22:20:00,157|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:20:00,157|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:20:00,157|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:20:00,157|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:20:00,157|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:20:00,172|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:20:00,172|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:20:00,172|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 0.892 seconds (JVM running for 549.425)
+2020-07-12 22:20:00,172|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:20:02,016|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:20:02,031|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:20:02,031|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:20:02,031|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:20:02,031|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:20:02,031|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-2} closed
+2020-07-12 22:20:02,031|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:21:00,160|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 15380 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:21:00,162|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:21:00,192|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 22:21:00,192|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 22:21:01,057|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:21:01,060|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:21:01,081|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2020-07-12 22:21:01,192|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:21:01,364|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:21:01,677|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:21:01,692|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:21:01,692|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:21:01,692|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:21:01,802|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:21:01,802|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1610 ms
+2020-07-12 22:21:02,098|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:21:02,192|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:21:02,223|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:21:02,317|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:21:02,380|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 22:21:02,874|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:21:02,874|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:21:02,890|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@20aff86
+2020-07-12 22:21:02,999|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:21:03,015|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:21:03,046|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:21:03,046|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:21:03,046|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:21:03,062|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:21:03,077|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:21:03,077|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 3.438 seconds (JVM running for 4.253)
+2020-07-12 22:21:16,773|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:21:16,773|INFO |Thread-10|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:21:16,773|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:21:16,773|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:21:16,773|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:21:16,788|INFO |Thread-10|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-07-12 22:21:16,788|INFO |Thread-10|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:21:17,004|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 15380 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:21:17,004|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:21:17,350|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:21:17,350|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:21:17,350|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:21:17,381|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:21:17,397|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:21:17,432|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:21:17,509|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:21:17,510|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:21:17,510|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:21:17,510|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:21:17,548|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:21:17,548|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 541 ms
+2020-07-12 22:21:17,658|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:21:17,702|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:21:17,711|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:21:17,747|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:21:17,758|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-2} inited
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:21:17,857|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@54ce7fbd
+2020-07-12 22:21:17,920|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:21:17,920|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 0.997 seconds (JVM running for 19.122)
+2020-07-12 22:21:17,942|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:21:39,039|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:21:39,041|INFO |Thread-19|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:21:39,042|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:21:39,043|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:21:39,043|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:21:39,047|INFO |Thread-19|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-2} closed
+2020-07-12 22:21:39,049|INFO |Thread-19|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:21:39,371|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 15380 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:21:39,371|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:21:39,734|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:21:39,734|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:21:39,734|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:21:39,765|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:21:39,781|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:21:39,796|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:21:39,890|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:21:39,890|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:21:39,890|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:21:39,906|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:21:39,937|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:21:39,937|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 566 ms
+2020-07-12 22:21:40,015|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:21:40,062|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:21:40,062|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:21:40,093|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:21:40,109|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-3} inited
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:21:40,202|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@383821e8
+2020-07-12 22:21:40,265|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:21:40,265|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:21:40,265|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:21:40,265|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:21:40,265|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:21:40,281|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:21:40,281|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:21:40,281|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 0.952 seconds (JVM running for 41.454)
+2020-07-12 22:21:40,281|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-3} closed
+2020-07-12 22:22:05,553|INFO |Thread-24|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:22:05,804|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 15380 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:22:05,804|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:22:06,168|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:22:06,168|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:22:06,168|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:22:06,199|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:22:06,199|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:22:06,230|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:22:06,308|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:22:06,308|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:22:06,308|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:22:06,308|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:22:06,340|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:22:06,340|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 536 ms
+2020-07-12 22:22:06,433|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:22:06,465|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:22:06,480|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:22:06,512|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:22:06,512|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-4} inited
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:22:06,621|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@60a24d8c
+2020-07-12 22:22:06,668|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:22:06,668|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 0.938 seconds (JVM running for 67.861)
+2020-07-12 22:22:06,683|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:22:14,369|INFO |Thread-29|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:22:14,369|INFO |Thread-29|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:22:14,369|INFO |Thread-29|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:22:14,369|INFO |Thread-29|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:22:14,369|INFO |Thread-29|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:22:14,400|INFO |Thread-29|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-4} closed
+2020-07-12 22:22:14,400|INFO |Thread-29|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:22:14,588|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 15380 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:22:14,588|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:22:14,931|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:22:14,931|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:22:14,931|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:22:14,962|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:22:14,978|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:22:14,994|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:22:15,072|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:22:15,072|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:22:15,072|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:22:15,072|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:22:15,103|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:22:15,103|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 515 ms
+2020-07-12 22:22:15,181|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:22:15,212|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:22:15,228|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:22:15,259|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:22:15,275|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-5} inited
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:22:15,369|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@74096806
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:22:15,431|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 0.885 seconds (JVM running for 76.615)
+2020-07-12 22:22:15,447|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-5} closed
+2020-07-12 22:22:31,900|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:22:34,143|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 6836 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:22:34,146|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:22:34,187|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 22:22:34,187|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 22:22:35,000|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:22:35,016|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:22:35,031|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-07-12 22:22:35,135|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:22:35,300|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:22:35,641|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:22:35,649|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:22:35,649|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:22:35,649|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:22:35,781|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:22:35,781|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1593 ms
+2020-07-12 22:22:36,119|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:22:36,219|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:22:36,256|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:22:36,352|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:22:36,425|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 22:22:37,021|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:22:37,023|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:22:37,030|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:22:37,030|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:22:37,031|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:22:37,032|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:22:37,032|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:22:37,032|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:22:37,032|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@7aff36ca
+2020-07-12 22:22:37,154|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:22:37,170|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:22:37,198|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:22:37,209|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:22:37,209|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:22:37,216|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:22:37,236|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:22:37,240|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 3.633 seconds (JVM running for 4.498)
+2020-07-12 22:22:37,425|INFO |http-nio-8081-exec-1|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-12 22:22:37,426|INFO |http-nio-8081-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-07-12 22:22:37,430|INFO |http-nio-8081-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 4 ms
+2020-07-12 22:23:27,821|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:23:27,821|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:23:27,821|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:23:27,821|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:23:27,821|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:23:27,837|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-07-12 22:23:27,837|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:23:32,264|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 13844 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:23:32,264|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:23:32,310|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 22:23:32,310|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 22:23:33,170|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:23:33,170|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:23:33,185|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-07-12 22:23:33,279|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:23:33,420|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:23:33,732|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:23:33,748|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:23:33,748|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:23:33,748|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:23:33,869|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:23:33,869|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1559 ms
+2020-07-12 22:23:34,170|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:23:34,263|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:23:34,295|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:23:34,370|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:23:34,432|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 22:23:34,932|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:23:34,932|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:23:34,948|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4bea8971
+2020-07-12 22:23:35,073|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:23:35,088|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:23:35,119|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:23:35,182|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:23:35,182|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:23:35,198|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:23:35,213|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:23:35,229|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 3.408 seconds (JVM running for 4.141)
+2020-07-12 22:23:38,563|INFO |http-nio-8081-exec-3|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-12 22:23:38,564|INFO |http-nio-8081-exec-3|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-07-12 22:23:38,568|INFO |http-nio-8081-exec-3|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 4 ms
+2020-07-12 22:24:30,686|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:24:30,686|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:24:30,686|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:24:30,686|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:24:30,686|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:24:30,701|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-07-12 22:24:30,701|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:24:35,258|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 17064 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:24:35,274|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:24:35,320|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 22:24:35,320|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 22:24:36,180|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:24:36,180|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:24:36,195|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-07-12 22:24:36,289|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:24:36,430|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:24:36,711|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:24:36,773|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:24:36,773|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:24:36,773|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:24:36,898|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:24:36,898|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1578 ms
+2020-07-12 22:24:37,226|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:24:37,304|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:24:37,351|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:24:37,429|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:24:37,492|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 22:24:37,992|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:24:37,992|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:24:38,007|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1ea750b0
+2020-07-12 22:24:38,117|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:24:38,132|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:24:38,164|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:24:38,242|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:24:38,242|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:24:38,242|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:24:38,257|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:24:38,273|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 3.449 seconds (JVM running for 4.176)
+2020-07-12 22:24:40,919|INFO |http-nio-8081-exec-1|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-12 22:24:40,919|INFO |http-nio-8081-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-07-12 22:24:40,924|INFO |http-nio-8081-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 5 ms
+2020-07-12 22:25:44,687|INFO |Thread-9|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:25:44,687|INFO |Thread-9|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:25:44,687|INFO |Thread-9|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:25:44,687|INFO |Thread-9|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:25:44,687|INFO |Thread-9|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:25:44,702|INFO |Thread-9|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-07-12 22:25:44,702|INFO |Thread-9|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:25:44,916|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 17064 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:25:44,916|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:25:45,119|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:25:45,119|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:25:45,135|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 1ms. Found 0 Redis repository interfaces.
+2020-07-12 22:25:45,166|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:25:45,181|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:25:45,197|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:25:45,275|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:25:45,275|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:25:45,275|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:25:45,275|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:25:45,315|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:25:45,315|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 384 ms
+2020-07-12 22:25:45,377|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:25:45,424|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:25:45,440|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-2} inited
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:25:45,533|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@168b83d8
+2020-07-12 22:25:45,580|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:25:45,596|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:25:45,596|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:25:45,596|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:25:45,596|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:25:45,596|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 0.731 seconds (JVM running for 71.513)
+2020-07-12 22:25:45,612|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:25:59,538|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:25:59,544|INFO |Thread-19|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:25:59,544|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:25:59,544|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:25:59,557|INFO |Thread-19|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:25:59,568|INFO |Thread-19|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-2} closed
+2020-07-12 22:25:59,568|INFO |Thread-19|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:25:59,914|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 17064 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:25:59,914|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:26:00,602|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:26:00,602|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:26:00,602|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:26:00,633|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:26:00,648|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:26:00,680|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:26:00,758|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:26:00,773|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:26:00,773|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:26:00,773|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:26:00,836|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:26:00,836|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 922 ms
+2020-07-12 22:26:00,945|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:26:00,992|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:26:00,992|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:26:01,023|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:26:01,039|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-3} inited
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:26:01,148|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6bcd863a
+2020-07-12 22:26:01,210|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:26:01,210|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:26:01,210|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:26:01,226|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:26:01,226|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:26:01,226|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:26:01,226|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:26:01,226|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 1.386 seconds (JVM running for 87.134)
+2020-07-12 22:26:01,226|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:58)
+Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   Swagger2DocumentationConfiguration matched:
+      - @ConditionalOnWebApplication (required) found 'session' scope (OnWebApplicationCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2020-07-12 22:26:34,339|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:26:34,341|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:26:34,342|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:26:34,342|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:26:34,342|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:26:34,348|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-3} closed
+2020-07-12 22:26:34,350|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:26:40,130|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 14868 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:26:40,130|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:26:40,177|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-12 22:26:40,177|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-12 22:26:41,005|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:26:41,005|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:26:41,020|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 4ms. Found 0 Redis repository interfaces.
+2020-07-12 22:26:41,130|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:26:41,270|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:26:41,583|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:26:41,583|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:26:41,583|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:26:41,583|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:26:41,708|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:26:41,708|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1531 ms
+2020-07-12 22:26:42,036|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:26:42,130|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:26:42,161|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:26:42,254|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:26:42,317|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-07-12 22:26:42,817|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:26:42,832|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3e8d9ded
+2020-07-12 22:26:42,957|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:26:42,973|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:26:43,004|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:26:43,067|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:26:43,067|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:26:43,082|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:26:43,098|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:26:43,098|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 3.421 seconds (JVM running for 4.234)
+2020-07-12 22:26:45,220|INFO |http-nio-8081-exec-3|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-12 22:26:45,220|INFO |http-nio-8081-exec-3|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-07-12 22:26:45,225|INFO |http-nio-8081-exec-3|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 5 ms
+2020-07-12 22:51:12,164|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:51:12,168|INFO |Thread-10|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:51:12,168|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:51:12,168|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:51:12,169|INFO |Thread-10|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:51:12,186|INFO |Thread-10|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-07-12 22:51:12,187|INFO |Thread-10|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:51:12,435|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting DesignApplication on DESKTOP-3EKU3ND with PID 14868 (F:\code\Z01\server\z01\design\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-07-12 22:51:12,435|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: dev,common
+2020-07-12 22:51:12,818|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-07-12 22:51:12,818|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-07-12 22:51:12,819|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 0ms. Found 0 Redis repository interfaces.
+2020-07-12 22:51:12,854|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.design]' package. Please check your configuration.
+2020-07-12 22:51:12,861|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-07-12 22:51:12,895|WARN |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+The MBean registry cannot be disabled because it has already been initialised
+2020-07-12 22:51:12,971|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8081 (http)
+2020-07-12 22:51:12,971|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:51:12,972|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-07-12 22:51:12,972|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-07-12 22:51:13,008|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-07-12 22:51:13,008|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 570 ms
+2020-07-12 22:51:13,100|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69)
+Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-07-12 22:51:13,140|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-12 22:51:13,148|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-07-12 22:51:13,183|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-07-12 22:51:13,194|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-2} inited
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-07-12 22:51:13,293|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4bef68ee
+2020-07-12 22:51:13,375|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160)
+Context refreshed
+2020-07-12 22:51:13,375|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163)
+Found 1 custom documentation plugin(s)
+2020-07-12 22:51:13,381|INFO |restartedMain|Caller+0	 at springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41)
+Scanning for api listing references
+2020-07-12 22:51:13,386|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-07-12 22:51:13,387|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-07-12 22:51:13,390|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8081"]
+2020-07-12 22:51:13,392|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8081 (http) with context path ''
+2020-07-12 22:51:13,393|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started DesignApplication in 1.014 seconds (JVM running for 1474.52)
+2020-07-12 22:51:13,402|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener.onApplicationEvent(ConditionEvaluationDeltaLoggingListener.java:63)
+Condition evaluation unchanged
+2020-07-12 22:57:40,673|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:57:40,673|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-07-12 22:57:40,673|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-07-12 22:57:40,673|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-07-12 22:57:40,673|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-07-12 22:57:40,689|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-2} closed
+2020-07-12 22:57:40,689|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'

@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  workerId: 1
+  decenterId: 0
+  dev: true
+  host: 127.0.0.1
+spring:
+  profiles:
+    include: common
+  mvc:
+    static-path-pattern: /**
+FileConfig:
+  fileDir: F:\code\Z01\server\z01\mallserver\src\main\resources\static\image\
+  fileDownLoad: /image/
+
+isNotIntercept: true

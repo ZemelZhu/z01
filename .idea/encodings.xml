@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/design" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gameserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mallserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mallserver/bin/startUp.sh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/note" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tool" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_framework" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web_framework/src" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webserver" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

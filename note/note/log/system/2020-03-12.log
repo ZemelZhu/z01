@@ -1,0 +1,258 @@
+2020-03-12 14:16:04,414|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting NoteApplicationTests on DESKTOP-3EKU3ND with PID 11560 (started by 13265 in F:\code\Z01\server\z01\note)
+2020-03-12 14:16:04,416|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-03-12 14:16:05,085|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 14:16:05,088|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 14:16:05,122|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 13ms. Found 0 Redis repository interfaces.
+2020-03-12 14:16:05,539|INFO |main|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-12 14:16:05,676|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.<init>(MyInstantiationAwareBeanPostProcessor.java:21)
+这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！
+2020-03-12 14:16:05,745|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-03-12 14:16:05,934|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-03-12 14:16:06,403|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==>  Preparing: SELECT id,name,password,create_time,coin,type,time,update_time,status FROM core_player WHERE id=? 
+2020-03-12 14:16:06,428|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==> Parameters: 1(Integer)
+2020-03-12 14:16:06,463|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+<==      Total: 1
+2020-03-12 14:16:06,464|ERROR|main|Caller+0	 at com.zemel.note.mysql.MysqlServices.init(MysqlServices.java:28)
+PlayerInfo(id=1, name=, password=123, createTime=Tue Jan 21 04:34:30 CST 2020, coin=1.00, type=0, time=Tue Jan 21 04:34:30 CST 2020, updateTime=Wed Feb 12 05:21:34 CST 2020, status=0)
+2020-03-12 14:16:06,485|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==>  Preparing: UPDATE core_player SET name=?, password=?, create_time=?, coin=?, type=?, time=?, update_time=?, status=? WHERE id=? 
+2020-03-12 14:16:06,490|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==> Parameters: (String), 123(String), 2020-01-21 04:34:30.0(Timestamp), 1(BigDecimal), 0(Integer), 2020-01-21 04:34:30.0(Timestamp), 2020-02-12 05:21:34.0(Timestamp), 0(Integer), 1(Integer)
+2020-03-12 14:16:06,495|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+<==    Updates: 1
+2020-03-12 14:16:06,509|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation(MyInstantiationAwareBeanPostProcessor.java:29)
+InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法class com.zemel.note.spring.TestBean
+2020-03-12 14:16:06,510|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.<init>(TestBean.java:32)
+TestBean constrance
+2020-03-12 14:16:06,515|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessPropertyValues(MyInstantiationAwareBeanPostProcessor.java:48)
+InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法class com.zemel.note.spring.TestBean
+2020-03-12 14:16:06,516|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation(MyInstantiationAwareBeanPostProcessor.java:29)
+InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法class com.zemel.note.spring.TestBean2
+2020-03-12 14:16:06,517|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.<init>(TestBean2.java:31)
+TestBean2 constrance
+2020-03-12 14:16:06,522|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessPropertyValues(MyInstantiationAwareBeanPostProcessor.java:48)
+InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法class com.zemel.note.spring.TestBean2
+2020-03-12 14:16:06,523|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setBeanName(TestBean2.java:51)
+setBeanName
+2020-03-12 14:16:06,524|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setBeanFactory(TestBean2.java:46)
+setBeanFactory
+2020-03-12 14:16:06,525|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setApplicationContext(TestBean2.java:66)
+setApplicationContext
+2020-03-12 14:16:06,525|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessBeforeInitialization(MyBeanPostProcessor.java:20)
+MyBeanPostProcessor.postProcessBeforeInitializationclass com.zemel.note.spring.TestBean2
+2020-03-12 14:16:06,526|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.init(TestBean2.java:41)
+TestBean2 initA
+2020-03-12 14:16:06,526|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.afterPropertiesSet(TestBean2.java:61)
+afterPropertiesSet
+2020-03-12 14:16:06,527|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessAfterInitialization(MyBeanPostProcessor.java:27)
+MyBeanPostProcessor.postProcessAfterInitializationclass com.zemel.note.spring.TestBean2
+2020-03-12 14:16:06,527|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessAfterInitialization(MyInstantiationAwareBeanPostProcessor.java:38)
+InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法class com.zemel.note.spring.TestBean2
+2020-03-12 14:16:06,528|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setBeanName(TestBean.java:52)
+TestBean setBeanName
+2020-03-12 14:16:06,528|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setBeanFactory(TestBean.java:47)
+TestBean setBeanFactory
+2020-03-12 14:16:06,528|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setApplicationContext(TestBean.java:67)
+TestBean setApplicationContext
+2020-03-12 14:16:06,528|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessBeforeInitialization(MyBeanPostProcessor.java:20)
+MyBeanPostProcessor.postProcessBeforeInitializationclass com.zemel.note.spring.TestBean
+2020-03-12 14:16:06,529|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.init(TestBean.java:42)
+TestBean init
+2020-03-12 14:16:06,529|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.afterPropertiesSet(TestBean.java:62)
+TestBean afterPropertiesSet
+2020-03-12 14:16:06,529|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessAfterInitialization(MyBeanPostProcessor.java:27)
+MyBeanPostProcessor.postProcessAfterInitializationclass com.zemel.note.spring.TestBean
+2020-03-12 14:16:06,529|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessAfterInitialization(MyInstantiationAwareBeanPostProcessor.java:38)
+InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法class com.zemel.note.spring.TestBean
+2020-03-12 14:16:06,901|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-12 14:16:07,677|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-03-12 14:16:07,680|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-03-12 14:16:07,691|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-03-12 14:16:07,692|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-03-12 14:16:07,693|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-03-12 14:16:07,694|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-03-12 14:16:07,694|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-03-12 14:16:07,694|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-03-12 14:16:07,695|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@27ffd9f8
+2020-03-12 14:16:07,788|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-03-12 14:16:07,789|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-03-12 14:16:07,796|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started NoteApplicationTests in 3.835 seconds (JVM running for 4.771)
+2020-03-12 14:16:08,135|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-12 14:16:08,140|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-03-12 14:16:08,140|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-03-12 14:16:08,141|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-12 14:16:08,141|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-03-12 14:16:08,155|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-12 14:16:08,156|ERROR|SpringContextShutdownHook|Caller+0	 at com.zemel.note.spring.TestBean2.destroy(TestBean2.java:56)
+destroy
+2020-03-12 14:16:08,156|ERROR|SpringContextShutdownHook|Caller+0	 at com.zemel.note.spring.TestBean.springPreDestory(TestBean.java:37)
+@PreDestory
+2020-03-12 14:16:08,156|ERROR|SpringContextShutdownHook|Caller+0	 at com.zemel.note.spring.TestBean.destroy(TestBean.java:57)
+TestBean destroy
+2020-03-12 14:16:08,163|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-03-12 15:15:43,441|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting NoteApplicationTests on DESKTOP-3EKU3ND with PID 1304 (started by 13265 in F:\code\Z01\server\z01\note)
+2020-03-12 15:15:43,442|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-03-12 15:15:43,996|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-03-12 15:15:43,998|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-03-12 15:15:44,023|INFO |main|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 12ms. Found 0 Redis repository interfaces.
+2020-03-12 15:15:44,385|INFO |main|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-12 15:15:44,488|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.<init>(MyInstantiationAwareBeanPostProcessor.java:21)
+这是InstantiationAwareBeanPostProcessorAdapter实现类构造器！！
+2020-03-12 15:15:44,557|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-03-12 15:15:44,726|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-03-12 15:15:45,158|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==>  Preparing: SELECT id,name,password,create_time,coin,type,time,update_time,status FROM core_player WHERE id=? 
+2020-03-12 15:15:45,182|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==> Parameters: 1(Integer)
+2020-03-12 15:15:45,210|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+<==      Total: 1
+2020-03-12 15:15:45,211|ERROR|main|Caller+0	 at com.zemel.note.mysql.MysqlServices.init(MysqlServices.java:28)
+PlayerInfo(id=1, name=, password=123, createTime=Tue Jan 21 04:34:30 CST 2020, coin=1.00, type=0, time=Tue Jan 21 04:34:30 CST 2020, updateTime=Wed Feb 12 05:21:34 CST 2020, status=0)
+2020-03-12 15:15:45,231|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==>  Preparing: UPDATE core_player SET name=?, password=?, create_time=?, coin=?, type=?, time=?, update_time=?, status=? WHERE id=? 
+2020-03-12 15:15:45,237|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+==> Parameters: (String), 123(String), 2020-01-21 04:34:30.0(Timestamp), 1(BigDecimal), 0(Integer), 2020-01-21 04:34:30.0(Timestamp), 2020-02-12 05:21:34.0(Timestamp), 0(Integer), 1(Integer)
+2020-03-12 15:15:45,241|DEBUG|main|Caller+0	 at org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:143)
+<==    Updates: 1
+2020-03-12 15:15:45,254|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation(MyInstantiationAwareBeanPostProcessor.java:29)
+InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法class com.zemel.note.spring.TestBean
+2020-03-12 15:15:45,255|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.<init>(TestBean.java:32)
+TestBean constrance
+2020-03-12 15:15:45,259|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessPropertyValues(MyInstantiationAwareBeanPostProcessor.java:48)
+InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法class com.zemel.note.spring.TestBean
+2020-03-12 15:15:45,260|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessBeforeInstantiation(MyInstantiationAwareBeanPostProcessor.java:29)
+InstantiationAwareBeanPostProcessor调用postProcessBeforeInstantiation方法class com.zemel.note.spring.TestBean2
+2020-03-12 15:15:45,261|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.<init>(TestBean2.java:31)
+TestBean2 constrance
+2020-03-12 15:15:45,265|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessPropertyValues(MyInstantiationAwareBeanPostProcessor.java:48)
+InstantiationAwareBeanPostProcessor调用postProcessPropertyValues方法class com.zemel.note.spring.TestBean2
+2020-03-12 15:15:45,267|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setBeanName(TestBean2.java:51)
+setBeanName
+2020-03-12 15:15:45,267|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setBeanFactory(TestBean2.java:46)
+setBeanFactory
+2020-03-12 15:15:45,268|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.setApplicationContext(TestBean2.java:66)
+setApplicationContext
+2020-03-12 15:15:45,268|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessBeforeInitialization(MyBeanPostProcessor.java:20)
+MyBeanPostProcessor.postProcessBeforeInitializationclass com.zemel.note.spring.TestBean2
+2020-03-12 15:15:45,269|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.init(TestBean2.java:41)
+TestBean2 initA
+2020-03-12 15:15:45,269|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean2.afterPropertiesSet(TestBean2.java:61)
+afterPropertiesSet
+2020-03-12 15:15:45,270|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessAfterInitialization(MyBeanPostProcessor.java:27)
+MyBeanPostProcessor.postProcessAfterInitializationclass com.zemel.note.spring.TestBean2
+2020-03-12 15:15:45,270|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessAfterInitialization(MyInstantiationAwareBeanPostProcessor.java:38)
+InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法class com.zemel.note.spring.TestBean2
+2020-03-12 15:15:45,271|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setBeanName(TestBean.java:52)
+TestBean setBeanName
+2020-03-12 15:15:45,271|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setBeanFactory(TestBean.java:47)
+TestBean setBeanFactory
+2020-03-12 15:15:45,271|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.setApplicationContext(TestBean.java:67)
+TestBean setApplicationContext
+2020-03-12 15:15:45,271|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessBeforeInitialization(MyBeanPostProcessor.java:20)
+MyBeanPostProcessor.postProcessBeforeInitializationclass com.zemel.note.spring.TestBean
+2020-03-12 15:15:45,272|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.init(TestBean.java:42)
+TestBean init
+2020-03-12 15:15:45,272|ERROR|main|Caller+0	 at com.zemel.note.spring.TestBean.afterPropertiesSet(TestBean.java:62)
+TestBean afterPropertiesSet
+2020-03-12 15:15:45,272|ERROR|main|Caller+0	 at com.zemel.note.spring.MyBeanPostProcessor.postProcessAfterInitialization(MyBeanPostProcessor.java:27)
+MyBeanPostProcessor.postProcessAfterInitializationclass com.zemel.note.spring.TestBean
+2020-03-12 15:15:45,272|ERROR|main|Caller+0	 at com.zemel.note.spring.MyInstantiationAwareBeanPostProcessor.postProcessAfterInitialization(MyInstantiationAwareBeanPostProcessor.java:38)
+InstantiationAwareBeanPostProcessor调用postProcessAfterInitialization方法class com.zemel.note.spring.TestBean
+2020-03-12 15:15:45,616|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-12 15:15:46,327|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-03-12 15:15:46,329|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-03-12 15:15:46,338|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-03-12 15:15:46,339|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-03-12 15:15:46,340|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-03-12 15:15:46,341|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-03-12 15:15:46,341|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-03-12 15:15:46,341|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-03-12 15:15:46,341|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@4e48462d
+2020-03-12 15:15:46,439|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-03-12 15:15:46,439|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-03-12 15:15:46,446|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started NoteApplicationTests in 3.338 seconds (JVM running for 4.151)
+2020-03-12 15:15:46,719|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-12 15:15:46,724|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-03-12 15:15:46,724|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-03-12 15:15:46,725|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-03-12 15:15:46,725|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-03-12 15:15:46,735|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-12 15:15:46,736|ERROR|SpringContextShutdownHook|Caller+0	 at com.zemel.note.spring.TestBean2.destroy(TestBean2.java:56)
+destroy
+2020-03-12 15:15:46,737|ERROR|SpringContextShutdownHook|Caller+0	 at com.zemel.note.spring.TestBean.springPreDestory(TestBean.java:37)
+@PreDestory
+2020-03-12 15:15:46,737|ERROR|SpringContextShutdownHook|Caller+0	 at com.zemel.note.spring.TestBean.destroy(TestBean.java:57)
+TestBean destroy
+2020-03-12 15:15:46,743|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed

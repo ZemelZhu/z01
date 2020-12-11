@@ -1,0 +1,77 @@
+2020-03-08 14:39:44,642|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting GameserverApplication on DESKTOP-3EKU3ND with PID 15336 (F:\code\Z01\server\z01\gameserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-03-08 14:39:44,645|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-03-08 14:39:44,735|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-08 14:39:45,679|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-03-08 14:39:45,829|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-03-08 14:39:46,443|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-03-08 14:39:46,445|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-03-08 14:39:46,454|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-03-08 14:39:46,455|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-03-08 14:39:46,456|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-03-08 14:39:46,456|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-03-08 14:39:46,457|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-03-08 14:39:46,457|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-03-08 14:39:46,457|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@335920c9
+2020-03-08 14:39:49,294|ERROR|restartedMain|Caller+0	 at com.zemel.framework.socket.netty.server.NettyServerConnector.connect(NettyServerConnector.java:82)
+Connector Error
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:5001
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:352)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:340)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:632)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:579)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:496)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:458)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:138)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	... 11 common frames omitted
+2020-03-08 14:39:49,294|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.AbstractBridgeClientsComponent.initialize(AbstractBridgeClientsComponent.java:63)
+server:ServerClusterInfo(id=1, serverType=0, serverState=0, name=web服务器, innerIp=127.0.0.1, outIp=, address=/websocket, port=5001, status=1, updateTime=Sat Feb 08 21:35:00 CST 2020, createTime=Tue Jan 21 07:07:43 CST 2020) start fail
+2020-03-08 14:39:49,298|ERROR|restartedMain|Caller+0	 at com.zemel.gameserver.logic.component.GameComponent.start(GameComponent.java:34)
+[PlayerInfo(id=1, name=, password=123, createTime=Tue Jan 21 04:34:30 CST 2020, coin=1.00, type=0, time=Tue Jan 21 04:34:30 CST 2020, updateTime=Wed Feb 12 05:21:34 CST 2020, status=0), PlayerInfo(id=2, name=, password=123, createTime=Mon Feb 17 22:36:52 CST 2020, coin=0.00, type=0, time=Mon Feb 17 22:36:55 CST 2020, updateTime=Mon Feb 17 22:37:02 CST 2020, status=0)]
+2020-03-08 14:39:49,319|ERROR|restartedMain|Caller+0	 at com.zemel.framework.socket.netty.net.AbstractNettyAdapter.start(AbstractNettyAdapter.java:38)
+netty start5000
+2020-03-08 14:39:49,320|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getB1
+2020-03-08 14:39:49,320|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getC1
+2020-03-08 14:39:49,320|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getD1
+2020-03-08 14:39:49,320|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method enterRoom1
+2020-03-08 14:39:49,321|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method createRoom1
+2020-03-08 14:39:49,321|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getRoomInfo1
+2020-03-08 14:39:49,321|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method updatePosition1
+2020-03-08 14:39:49,385|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-03-08 14:39:49,525|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-03-08 14:39:49,550|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started GameserverApplication in 5.678 seconds (JVM running for 6.622)

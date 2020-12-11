@@ -1,0 +1,10 @@
+server:
+  port: 8085
+  id: 0
+spring:
+  profiles:
+    include: common
+
+logging:
+  level:
+    com.zemel.data.mapping: debug

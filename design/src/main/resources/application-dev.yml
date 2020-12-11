@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  workerId: 1
+  decenterId: 2
+  dev: true
+  host: 127.0.0.1
+spring:
+  profiles:
+    include: common
+  mvc:
+    static-path-pattern: /**
+
+isNotIntercept: true

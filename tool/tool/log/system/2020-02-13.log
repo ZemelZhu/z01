@@ -1,0 +1,1001 @@
+2020-02-13 14:04:28,236|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 16732 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:04:28,237|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:04:29,079|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:04:29,331|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:04:29,346|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:04:29,502|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:04:29,503|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:04:29,506|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:04:29,506|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=false)
+2020-02-13 14:04:29,513|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:29,513|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:29,516|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:29,517|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:29,519|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:29,519|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:29,523|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:29,523|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:29,528|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:29,528|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:29,528|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:04:29,889|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:04:29,979|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:04:30,404|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:04:30,407|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:04:30,417|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:04:30,417|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:04:30,418|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:04:30,419|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:04:30,419|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:04:30,419|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:04:30,420|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5f69e2b
+2020-02-13 14:04:30,643|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:04:30,643|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:04:30,649|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.761 seconds (JVM running for 3.721)
+2020-02-13 14:04:30,888|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:22)
+bytes:[B@1668919e
+2020-02-13 14:04:30,902|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:04:30,903|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:04:30,903|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:04:30,903|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:04:30,903|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:04:30,904|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:04:30,911|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 14:04:57,536|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 16016 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:04:57,538|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:04:58,412|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:04:58,623|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:04:58,639|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:04:58,815|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:04:58,816|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:04:58,819|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:04:58,819|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=false)
+2020-02-13 14:04:58,825|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:58,826|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:58,829|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:58,830|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:58,835|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:58,836|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:58,840|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:58,841|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:58,847|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:04:58,848|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:04:58,848|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:04:59,213|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:04:59,293|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:04:59,683|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:04:59,686|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:04:59,699|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:04:59,699|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:04:59,701|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:04:59,702|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:04:59,702|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:04:59,702|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:04:59,703|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3b27b497
+2020-02-13 14:04:59,939|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:04:59,939|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:04:59,946|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.811 seconds (JVM running for 3.747)
+2020-02-13 14:05:00,136|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:22)
+bytes:[B@45c9b3
+2020-02-13 14:05:00,149|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:05:00,149|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:05:00,149|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:05:00,150|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:05:00,150|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:05:00,150|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:05:00,167|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 14:06:41,489|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 8988 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:06:41,490|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:06:42,322|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:06:42,538|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:06:42,552|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:06:42,706|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:06:42,706|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:06:42,709|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:06:42,710|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=false)
+2020-02-13 14:06:42,715|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:06:42,715|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:06:42,719|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:06:42,719|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:06:42,722|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:06:42,723|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:06:42,726|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:06:42,727|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:06:42,732|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:06:42,732|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:06:42,732|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:06:43,083|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:06:43,165|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:06:43,565|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:06:43,567|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:06:43,577|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:06:43,578|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:06:43,579|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:06:43,580|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:06:43,580|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:06:43,580|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:06:43,580|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5a08efdc
+2020-02-13 14:06:43,783|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:06:43,783|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:06:43,791|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.705 seconds (JVM running for 3.673)
+2020-02-13 14:06:43,970|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:24)
+bytes:[8, 1, 16, 1]
+2020-02-13 14:06:43,982|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:06:43,982|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:06:43,982|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:06:43,983|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:06:43,983|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:06:43,983|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:06:43,989|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 14:10:16,499|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 16836 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:10:16,501|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:10:17,387|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:10:17,591|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:10:17,606|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:10:17,750|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:10:17,750|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:10:17,753|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:10:17,754|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=false)
+2020-02-13 14:10:17,759|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:10:17,759|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:10:17,762|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:10:17,762|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:10:17,766|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:10:17,766|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:10:17,769|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:10:17,769|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:10:17,773|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:10:17,774|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:10:17,774|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:10:18,107|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:10:18,183|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:10:18,567|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:10:18,570|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:10:18,580|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:10:18,581|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:10:18,582|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:10:18,583|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:10:18,584|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:10:18,584|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:10:18,584|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3b27b497
+2020-02-13 14:10:18,824|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:10:18,825|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:10:18,833|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.801 seconds (JVM running for 3.718)
+2020-02-13 14:10:19,033|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:24)
+bytes:[8, 1, 16, 1]
+2020-02-13 14:10:19,048|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:10:19,049|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:10:19,049|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:10:19,049|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:10:19,049|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:10:19,050|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:10:19,056|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 14:12:24,329|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 17336 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:12:24,331|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:12:25,212|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:12:25,445|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:12:25,460|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:12:25,612|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:12:25,612|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:12:25,616|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:12:25,617|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=false)
+2020-02-13 14:12:25,621|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:12:25,622|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:12:25,625|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:12:25,625|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:12:25,629|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:12:25,629|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:12:25,632|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:12:25,632|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:12:25,637|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:12:25,637|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:12:25,638|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:12:25,984|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:12:26,064|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:12:26,450|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:12:26,452|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:12:26,463|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:12:26,464|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:12:26,465|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:12:26,465|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:12:26,466|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:12:26,466|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:12:26,466|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@b1534d3
+2020-02-13 14:12:26,702|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:12:26,703|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:12:26,711|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.799 seconds (JVM running for 3.836)
+2020-02-13 14:12:26,897|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:25)
+bytes:[8, 1, 16, 1]
+2020-02-13 14:12:26,949|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+code: 1
+body: 1
+
+2020-02-13 14:12:26,963|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:12:26,963|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:12:26,964|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:12:26,964|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:12:26,964|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:12:26,964|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:12:26,970|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 14:38:52,719|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 7260 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:38:52,720|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:38:53,510|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:38:53,740|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:38:53,755|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:38:53,904|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:38:53,904|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:38:53,907|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:38:53,908|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=false)
+2020-02-13 14:38:53,913|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:38:53,913|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:38:53,916|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:38:53,916|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:38:53,919|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:38:53,919|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:38:53,922|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:38:53,922|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:38:53,927|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:38:53,927|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:38:53,927|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:38:54,309|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:38:54,396|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:38:54,807|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:38:54,810|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:38:54,819|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:38:54,820|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:38:54,821|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:38:54,822|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:38:54,822|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:38:54,822|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:38:54,822|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@489091bd
+2020-02-13 14:38:55,035|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:38:55,035|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:38:55,043|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.699 seconds (JVM running for 3.617)
+2020-02-13 14:38:55,213|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:25)
+bytes:[8, 1, 16, 1]
+2020-02-13 14:38:55,256|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+code: 1
+body: 1
+
+2020-02-13 14:38:55,269|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:38:55,269|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:38:55,270|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:38:55,270|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:38:55,270|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:38:55,270|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:38:55,276|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 14:46:48,949|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 17060 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 14:46:48,950|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 14:46:49,913|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 14:46:50,122|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 14:46:50,137|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 14:46:50,287|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 14:46:50,288|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 14:46:50,291|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 14:46:50,291|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=CommonMsg.proto, build=true, buildJAVA=true, buildJS=false, buildCS=true)
+2020-02-13 14:46:50,296|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 14:46:50,297|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 14:46:50,300|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 14:46:50,300|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 14:46:50,300|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 14:46:50,617|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:46:50,702|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 14:46:51,108|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 14:46:51,111|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 14:46:51,122|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 14:46:51,123|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 14:46:51,124|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 14:46:51,125|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 14:46:51,125|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 14:46:51,125|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 14:46:51,125|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@489091bd
+2020-02-13 14:46:51,354|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 14:46:51,354|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 14:46:51,361|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.857 seconds (JVM running for 3.807)
+2020-02-13 14:46:51,544|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:25)
+bytes:[8, -24, 15, 16, -110, 96]
+2020-02-13 14:46:51,590|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+code: 1
+body: 1
+
+2020-02-13 14:46:51,604|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:46:51,604|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 14:46:51,604|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 14:46:51,604|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 14:46:51,604|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 14:46:51,605|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 14:46:51,611|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 15:25:32,576|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 17020 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 15:25:32,577|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 15:25:33,440|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 15:25:33,650|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 15:25:33,667|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 15:25:33,832|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 15:25:33,833|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 15:25:33,838|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 15:25:33,840|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=CommonMsg.proto, build=true, buildJAVA=true, buildJS=false, buildCS=true)
+2020-02-13 15:25:33,844|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:25:33,845|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:25:33,848|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:25:33,848|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:25:33,849|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 15:25:34,212|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:25:34,290|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 15:25:34,698|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 15:25:34,701|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 15:25:34,712|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 15:25:34,713|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 15:25:34,714|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 15:25:34,714|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 15:25:34,715|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 15:25:34,715|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 15:25:34,715|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@489091bd
+2020-02-13 15:25:34,946|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 15:25:34,946|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 15:25:34,953|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.808 seconds (JVM running for 3.771)
+2020-02-13 15:25:35,128|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:25)
+bytes:[8, -1, -1, -1, -1, 7, 16, -1, -1, -1, -1, 7]
+2020-02-13 15:25:35,171|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+code: 1
+body: 1
+
+2020-02-13 15:25:35,185|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:25:35,185|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 15:25:35,185|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 15:25:35,185|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:25:35,185|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 15:25:35,186|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:25:35,193|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 15:27:37,874|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 16596 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 15:27:37,875|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 15:27:38,693|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 15:27:38,894|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 15:27:38,908|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 15:27:39,053|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 15:27:39,053|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 15:27:39,057|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 15:27:39,057|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=CommonMsg.proto, build=true, buildJAVA=true, buildJS=false, buildCS=true)
+2020-02-13 15:27:39,061|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:27:39,061|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:27:39,064|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:27:39,065|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:27:39,065|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 15:27:39,415|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:27:39,495|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 15:27:39,908|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 15:27:39,910|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 15:27:39,920|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 15:27:39,921|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 15:27:39,922|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 15:27:39,923|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 15:27:39,923|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 15:27:39,924|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 15:27:39,924|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@489091bd
+2020-02-13 15:27:40,152|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 15:27:40,152|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 15:27:40,159|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.739 seconds (JVM running for 3.67)
+2020-02-13 15:27:40,405|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:25)
+bytes:[8, -1, -1, -1, -1, 7, 16, -1, -1, -1, -1, 7]
+2020-02-13 15:27:40,448|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+code: 1
+body: 1
+
+2020-02-13 15:27:40,461|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:27:40,461|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 15:27:40,461|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 15:27:40,461|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:27:40,462|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 15:27:40,462|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:27:40,468|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 15:28:40,412|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 17948 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 15:28:40,414|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 15:28:41,353|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 15:28:41,565|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 15:28:41,580|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 15:28:41,737|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 15:28:41,737|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 15:28:41,740|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 15:28:41,741|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=CommonMsg.proto, build=true, buildJAVA=true, buildJS=false, buildCS=true)
+2020-02-13 15:28:41,746|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:28:41,746|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:28:41,748|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:28:41,749|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:28:41,750|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 15:28:42,065|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:28:42,145|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 15:28:42,548|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 15:28:42,550|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 15:28:42,559|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 15:28:42,560|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 15:28:42,561|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 15:28:42,562|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 15:28:42,563|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 15:28:42,563|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 15:28:42,563|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1e9469b8
+2020-02-13 15:28:42,784|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 15:28:42,784|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 15:28:42,791|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.785 seconds (JVM running for 3.817)
+2020-02-13 15:28:42,978|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:25)
+bytes:[8, -1, -1, -1, -1, 7, 16, -1, -1, -1, -1, 7]
+2020-02-13 15:28:43,035|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+code: 1
+body: 1
+
+2020-02-13 15:28:43,047|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:28:43,047|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 15:28:43,048|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 15:28:43,048|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:28:43,048|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 15:28:43,048|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:28:43,054|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-02-13 15:41:09,237|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting ProtobufTest on DESKTOP-3EKU3ND with PID 9516 (started by 13265 in F:\code\java\idea\z01\tool)
+2020-02-13 15:41:09,239|INFO |main|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-02-13 15:41:10,081|INFO |main|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-02-13 15:41:10,281|INFO |main|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-02-13 15:41:10,296|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:32)
+===========autoCreateClass  start==============
+2020-02-13 15:41:10,441|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.generateCode(Dbgenerate.java:58)
+generate table PlayerInfo success
+2020-02-13 15:41:10,442|ERROR|main|Caller+0	 at com.zemel.tool.generate.Dbgenerate.start(Dbgenerate.java:49)
+===========autoCreateClass  end==============
+2020-02-13 15:41:10,445|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:34)
+===========CompileProtoBuid  start==============
+2020-02-13 15:41:10,445|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:35)
+GameServerProtoConfig(inputPath=F:\code\java\idea\z01\data\src\main\java\com\zemel\data\proto, outPutPath=F:\code\java\idea\z01\data\src\main\java\, execPath=F:\code\java\idea\z01\tool\tool, protoName=, build=true, buildJAVA=true, buildJS=false, buildCS=true)
+2020-02-13 15:41:10,451|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:41:10,451|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:41:10,454|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:41:10,455|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe CommonMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:41:10,457|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:41:10,457|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:41:10,460|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:41:10,460|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe LoginMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:41:10,463|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:41:10,463|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:41:10,466|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:41:10,467|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe PlayerMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:41:10,470|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:41:10,470|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:41:10,474|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:41:10,474|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe RoomMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:41:10,477|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:91)
+proto java build success
+2020-02-13 15:41:10,477|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildJAVA(CompileProtoBuid.java:92)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --java_out=F:\code\java\idea\z01\data\src\main\java\
+2020-02-13 15:41:10,484|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:73)
+proto cs build success
+2020-02-13 15:41:10,484|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.buildCS(CompileProtoBuid.java:74)
+F:\code\java\idea\z01\tool\tool/protoc.exe WebServerMsg.proto --csharp_out=F:\code\unity3d\Test\Assets\proto\
+2020-02-13 15:41:10,484|ERROR|main|Caller+0	 at com.zemel.tool.proto.CompileProtoBuid.start(CompileProtoBuid.java:37)
+===========CompileProtoBuid  start==============
+2020-02-13 15:41:10,851|INFO |main|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:41:10,930|INFO |main|Caller+0	 at org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping.<init>(WelcomePageHandlerMapping.java:54)
+Adding welcome page: class path resource [static/index.html]
+2020-02-13 15:41:11,330|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-02-13 15:41:11,333|INFO |main|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: main
+2020-02-13 15:41:11,351|INFO |main|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-02-13 15:41:11,352|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-02-13 15:41:11,353|INFO |main|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-02-13 15:41:11,353|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-02-13 15:41:11,354|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-02-13 15:41:11,354|INFO |main|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-02-13 15:41:11,354|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@489091bd
+2020-02-13 15:41:11,565|INFO |main|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.startScheduler(SchedulerFactoryBean.java:727)
+Starting Quartz Scheduler now
+2020-02-13 15:41:11,566|INFO |main|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-02-13 15:41:11,571|INFO |main|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started ProtobufTest in 2.745 seconds (JVM running for 3.679)
+2020-02-13 15:41:11,760|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:29)
+bytes:[8, -1, -1, -1, -1, 7, 18, 7, 8, 1, 18, 3, 49, 50, 51]
+2020-02-13 15:41:11,798|ERROR|main|Caller+0	 at com.zemel.tool.ProtobufTest.test(ProtobufTest.java:33)
+code: 1
+2: 1
+
+2020-02-13 15:41:11,812|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:41:11,812|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-02-13 15:41:11,812|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-02-13 15:41:11,812|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-02-13 15:41:11,813|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-02-13 15:41:11,813|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-13 15:41:11,819|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed

@@ -1,0 +1,3526 @@
+2020-05-17 00:12:21,613|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting GameserverApplication on DESKTOP-3EKU3ND with PID 23696 (F:\code\Z01\server\z01\gameserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-05-17 00:12:21,616|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-05-17 00:12:21,669|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-17 00:12:21,669|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-17 00:12:22,466|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-17 00:12:22,469|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-17 00:12:22,507|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'adminUserInfoMapper' and 'com.zemel.data.mapping.AdminUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'commodityInfoMapper' and 'com.zemel.data.mapping.CommodityInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallAfterSaleInfoMapper' and 'com.zemel.data.mapping.MallAfterSaleInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallConfigInfoMapper' and 'com.zemel.data.mapping.MallConfigInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallLabelInfoMapper' and 'com.zemel.data.mapping.MallLabelInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallOrderInfoMapper' and 'com.zemel.data.mapping.MallOrderInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,642|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallUserInfoMapper' and 'com.zemel.data.mapping.MallUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,643|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'playerInfoMapper' and 'com.zemel.data.mapping.PlayerInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,643|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'roomInfoMapper' and 'com.zemel.data.mapping.RoomInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,643|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'serverClusterMapping' and 'com.zemel.data.mapping.ServerClusterMapping' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:22,643|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.*.mapping]' package. Please check your configuration.
+2020-05-17 00:12:23,049|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-05-17 00:12:23,211|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-05-17 00:12:24,078|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-05-17 00:12:24,101|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-05-17 00:12:24,228|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-17 00:12:24,229|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-05-17 00:12:24,230|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-05-17 00:12:24,231|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-17 00:12:24,232|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-17 00:12:24,232|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-05-17 00:12:24,232|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@ac036a0
+2020-05-17 13:14:04,020|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting GameserverApplication on DESKTOP-3EKU3ND with PID 12660 (F:\code\Z01\server\z01\gameserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-05-17 13:14:04,024|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-05-17 13:14:04,083|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-17 13:14:04,083|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-17 13:14:04,836|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-17 13:14:04,838|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-17 13:14:04,868|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-05-17 13:14:04,994|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'adminUserInfoMapper' and 'com.zemel.data.mapping.AdminUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,994|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'commodityInfoMapper' and 'com.zemel.data.mapping.CommodityInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,995|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallAfterSaleInfoMapper' and 'com.zemel.data.mapping.MallAfterSaleInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,995|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallConfigInfoMapper' and 'com.zemel.data.mapping.MallConfigInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,995|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallLabelInfoMapper' and 'com.zemel.data.mapping.MallLabelInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,996|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallOrderInfoMapper' and 'com.zemel.data.mapping.MallOrderInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,996|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallUserInfoMapper' and 'com.zemel.data.mapping.MallUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,996|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'playerInfoMapper' and 'com.zemel.data.mapping.PlayerInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,996|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'roomInfoMapper' and 'com.zemel.data.mapping.RoomInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,997|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'serverClusterMapping' and 'com.zemel.data.mapping.ServerClusterMapping' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:14:04,998|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.*.mapping]' package. Please check your configuration.
+2020-05-17 13:14:05,491|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-05-17 13:14:05,657|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-05-17 13:14:06,114|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-05-17 13:14:06,117|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-05-17 13:14:06,126|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-17 13:14:06,127|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-05-17 13:14:06,128|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-05-17 13:14:06,130|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-17 13:14:06,130|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-17 13:14:06,130|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-05-17 13:14:06,131|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@5612bcc8
+2020-05-17 13:14:06,709|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.AbstractBridgeClientsComponent.initialize(AbstractBridgeClientsComponent.java:61)
+server:ServerClusterInfo(id=2, serverType=0, serverState=0, name=web, innerIp=127.0.0.1, outIp=127.0.0.1, address=/, port=5001, status=0, updateTime=Sun May 17 00:38:51 CST 2020, createTime=Sun May 17 00:38:51 CST 2020) start success
+2020-05-17 13:14:06,720|ERROR|restartedMain|Caller+0	 at com.zemel.gameserver.logic.component.GameComponent.start(GameComponent.java:34)
+[PlayerInfo(id=1, name=SDF, password=1, createTime=Sat May 16 22:44:17 CST 2020, coin=0.00, type=0, time=Sat May 16 22:44:17 CST 2020, updateTime=Sat May 16 22:44:17 CST 2020, status=0)]
+2020-05-17 13:14:06,742|ERROR|restartedMain|Caller+0	 at com.zemel.framework.socket.netty.net.AbstractNettyAdapter.start(AbstractNettyAdapter.java:38)
+netty start5000
+2020-05-17 13:14:06,743|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getC1
+2020-05-17 13:14:06,744|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getB1
+2020-05-17 13:14:06,744|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getD1
+2020-05-17 13:14:06,744|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method createRoom1
+2020-05-17 13:14:06,744|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getRoomInfo1
+2020-05-17 13:14:06,744|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method enterRoom1
+2020-05-17 13:14:06,744|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method updatePosition1
+2020-05-17 13:14:06,754|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-17 13:14:06,754|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ITimerComponent.start(ITimerComponent.java:141)
+添加每天定时器,数量:1
+2020-05-17 13:14:06,765|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-17 13:14:06,814|INFO |restartedMain|Caller+0	 at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.afterPropertiesSet(EhCacheManagerFactoryBean.java:134)
+Initializing EhCache CacheManager
+2020-05-17 13:14:07,400|WARN |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:61)
+Unable to start LiveReload server
+2020-05-17 13:14:07,586|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started GameserverApplication in 4.205 seconds (JVM running for 5.518)
+2020-05-17 13:17:31,974|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelActive(WebSocketFrameHandler.java:48)
+active[id: 0x9014a87a, L:/127.0.0.1:5000 - R:/127.0.0.1:4575]
+2020-05-17 13:17:31,999|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 13:17:32,000|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 13:17:32,026|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:17:34,021|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:17:34,024|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:1
+2020-05-17 13:17:34,199|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:17:34,199|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:12
+2020-05-17 13:17:34,206|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.getRoomInfoData(BaseRoom.java:90)
+placeInfo:PlaceInfo(placeID=0, transformVo=TransformVo(position=PointVo(x=5.0, y=0.5, z=3.0, w=0.0), rotation=PointVo(x=0.0, y=0.0, z=0.0, w=1.0), scale=PointVo(x=5.0, y=0.5, z=3.0, w=0.0)), player=com.zemel.gameserver.logic.player.GamePlayer@3731b937, placeType=null)
+2020-05-17 13:17:42,865|ERROR|nioEventLoopGroup-4-1|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelInactive(WebSocketFrameHandler.java:77)
+disconnectChannelHandlerContext(handler, [id: 0x9014a87a, L:/127.0.0.1:5000 ! R:/127.0.0.1:4575])
+2020-05-17 13:17:49,781|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelActive(WebSocketFrameHandler.java:48)
+active[id: 0x3d1b489b, L:/127.0.0.1:5000 - R:/127.0.0.1:4581]
+2020-05-17 13:17:49,789|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 13:17:49,790|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 13:17:49,827|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:17:50,851|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:17:50,851|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:1
+2020-05-17 13:18:49,761|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:19:49,762|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:20:49,767|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:21:31,182|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:21:31,183|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:1
+2020-05-17 13:21:49,781|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:22:49,782|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:23:49,786|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:24:49,791|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:28:53,381|ERROR|nioEventLoopGroup-4-2|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelInactive(WebSocketFrameHandler.java:77)
+disconnectChannelHandlerContext(handler, [id: 0x3d1b489b, L:/127.0.0.1:5000 ! R:/127.0.0.1:4581])
+2020-05-17 13:38:41,602|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelActive(WebSocketFrameHandler.java:48)
+active[id: 0x324bc852, L:/127.0.0.1:5000 - R:/127.0.0.1:4822]
+2020-05-17 13:38:41,610|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 13:38:41,610|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 13:38:41,643|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:38:43,229|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:38:43,229|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:1
+2020-05-17 13:39:41,601|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:40:41,604|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:41:41,617|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:42:41,619|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:43:41,630|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:44:41,643|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:45:41,645|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:46:41,649|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:47:41,654|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:48:41,668|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:49:41,672|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:50:41,682|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:51:41,698|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:52:41,701|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:53:41,708|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:54:41,721|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:55:41,725|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:56:41,737|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:57:41,750|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:58:41,751|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 13:59:41,763|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:00:41,777|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:01:41,777|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:02:41,787|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:03:41,805|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:04:41,817|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:05:41,821|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:06:41,831|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:07:41,841|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:08:41,854|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:09:41,863|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:10:41,868|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:11:41,873|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:12:41,878|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:13:41,886|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:14:41,895|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:15:41,906|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:16:41,922|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:17:41,929|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:18:41,940|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:19:41,950|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:20:41,953|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:21:41,961|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:21:58,578|ERROR|nioEventLoopGroup-4-3|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelInactive(WebSocketFrameHandler.java:77)
+disconnectChannelHandlerContext(handler, [id: 0x324bc852, L:/127.0.0.1:5000 ! R:/127.0.0.1:4822])
+2020-05-17 14:22:37,212|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelActive(WebSocketFrameHandler.java:48)
+active[id: 0xef4f066e, L:/127.0.0.1:5000 - R:/127.0.0.1:7250]
+2020-05-17 14:22:37,217|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 14:22:37,218|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 14:22:37,241|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,249|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,249|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:1
+2020-05-17 14:22:38,339|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,339|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:12
+2020-05-17 14:22:38,339|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.getRoomInfoData(BaseRoom.java:90)
+placeInfo:PlaceInfo(placeID=0, transformVo=TransformVo(position=PointVo(x=5.0, y=0.5, z=3.0, w=0.0), rotation=PointVo(x=0.0, y=0.0, z=0.0, w=1.0), scale=PointVo(x=5.0, y=0.5, z=3.0, w=0.0)), player=com.zemel.gameserver.logic.player.GamePlayer@3731b937, placeType=null)
+2020-05-17 14:22:38,787|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,788|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,795|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,812|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,828|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,844|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0
+    y: 0.5
+    z: 3.0
+  }
+  rotation {
+    y: 1.0935605E-4
+    w: 1.0
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,844|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,846|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  y: 1.0935605E-4
+w: 1.0
+
+2020-05-17 14:22:38,846|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,846|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0
+    y: 0.5
+    z: 3.0
+  }
+  rotation {
+    y: 0.002826775
+    w: 0.999996
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,847|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  y: 0.002826775
+w: 0.999996
+
+2020-05-17 14:22:38,847|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,848|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0
+    y: 0.5
+    z: 3.0
+  }
+  rotation {
+    y: 0.0035781257
+    w: 0.9999936
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,849|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  y: 0.0035781257
+w: 0.9999936
+
+2020-05-17 14:22:38,849|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,850|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0000052
+    y: 0.5
+    z: 3.0007634
+  }
+  rotation {
+    y: 0.0043635545
+    w: 0.9999905
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,851|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  y: 0.0043635545
+w: 0.9999905
+
+2020-05-17 14:22:38,851|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,851|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.000019
+    y: 0.5
+    z: 3.0023355
+  }
+  rotation {
+    y: 0.005268353
+    w: 0.9999861
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,851|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  y: 0.005268353
+w: 0.9999861
+
+2020-05-17 14:22:38,861|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,862|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,863|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.000045
+    y: 0.5
+    z: 3.0047708
+  }
+  rotation {
+    x: 4.887148E-13
+    y: 0.0063014133
+    z: 1.3026469E-12
+    w: 0.99998015
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,863|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 4.887148E-13
+y: 0.0063014133
+z: 1.3026469E-12
+w: 0.99998015
+
+2020-05-17 14:22:38,878|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,879|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,879|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0000873
+    y: 0.5
+    z: 3.008125
+  }
+  rotation {
+    x: -1.5729953E-9
+    y: 0.007470503
+    z: 2.0307562E-9
+    w: 0.9999721
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,883|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5729953E-9
+y: 0.007470503
+z: 2.0307562E-9
+w: 0.9999721
+
+2020-05-17 14:22:38,894|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,894|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,895|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0001464
+    y: 0.5
+    z: 3.012079
+  }
+  rotation {
+    x: -1.5754495E-9
+    y: 0.008679559
+    z: 2.0288526E-9
+    w: 0.99996233
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,895|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5754495E-9
+y: 0.008679559
+z: 2.0288526E-9
+w: 0.99996233
+
+2020-05-17 14:22:38,911|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,912|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,912|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0002327
+    y: 0.5
+    z: 3.0170612
+  }
+  rotation {
+    x: -3.1761267E-9
+    y: 0.01005469
+    z: 4.070236E-9
+    w: 0.99994946
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,912|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1761267E-9
+y: 0.01005469
+z: 4.070236E-9
+w: 0.99994946
+
+2020-05-17 14:22:38,927|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,927|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,928|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0003457
+    y: 0.5
+    z: 3.02269
+  }
+  rotation {
+    x: -1.9761401E-9
+    y: 0.011492526
+    z: 3.7933097E-9
+    w: 0.99993396
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,928|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.9761401E-9
+y: 0.011492526
+z: 3.7933097E-9
+w: 0.99993396
+
+2020-05-17 14:22:38,944|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,944|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,945|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.000502
+    y: 0.5
+    z: 3.029488
+  }
+  rotation {
+    x: -1.7376356E-9
+    y: 0.013119262
+    z: 2.9070668E-9
+    w: 0.99991393
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,946|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.7376356E-9
+y: 0.013119262
+z: 2.9070668E-9
+w: 0.99991393
+
+2020-05-17 14:22:38,960|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,960|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,961|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0006886
+    y: 0.5
+    z: 3.0365932
+  }
+  rotation {
+    x: -1.6412797E-9
+    y: 0.014736507
+    z: 2.8442828E-9
+    w: 0.99989146
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,962|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.6412797E-9
+y: 0.014736507
+z: 2.8442828E-9
+w: 0.99989146
+
+2020-05-17 14:22:38,977|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,977|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,978|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.000936
+    y: 0.5
+    z: 3.0449893
+  }
+  rotation {
+    x: -1.1710337E-9
+    y: 0.01656444
+    z: 5.4202003E-9
+    w: 0.99986285
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,978|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.1710337E-9
+y: 0.01656444
+z: 5.4202003E-9
+w: 0.99986285
+
+2020-05-17 14:22:38,994|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:38,994|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:38,995|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0012426
+    y: 0.5
+    z: 3.054247
+  }
+  rotation {
+    x: -1.1815531E-9
+    y: 0.018505305
+    z: 5.4179163E-9
+    w: 0.99982876
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:38,995|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.1815531E-9
+y: 0.018505305
+z: 5.4179163E-9
+w: 0.99982876
+
+2020-05-17 14:22:39,010|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,011|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,011|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0015926
+    y: 0.5
+    z: 3.0637007
+  }
+  rotation {
+    x: -7.2695877E-10
+    y: 0.020427663
+    z: 7.993794E-9
+    w: 0.9997914
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,011|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -7.2695877E-10
+y: 0.020427663
+z: 7.993794E-9
+w: 0.9997914
+
+2020-05-17 14:22:39,026|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,026|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,029|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.002027
+    y: 0.5
+    z: 3.0743299
+  }
+  rotation {
+    x: -2.8237174E-10
+    y: 0.022315495
+    z: 1.0568863E-8
+    w: 0.99975103
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,029|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.8237174E-10
+y: 0.022315495
+z: 1.0568863E-8
+w: 0.99975103
+
+2020-05-17 14:22:39,043|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,043|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,045|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0025363
+    y: 0.5
+    z: 3.0857334
+  }
+  rotation {
+    x: 1.5351792E-10
+    y: 0.024090178
+    z: 1.3143034E-8
+    w: 0.9997098
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,045|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.5351792E-10
+y: 0.024090178
+z: 1.3143034E-8
+w: 0.9997098
+
+2020-05-17 14:22:39,059|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,060|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,060|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.003129
+    y: 0.5
+    z: 3.0980244
+  }
+  rotation {
+    x: 6.07714E-10
+    y: 0.02409018
+    z: 1.571515E-8
+    w: 0.99970984
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,060|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 6.07714E-10
+y: 0.02409018
+z: 1.571515E-8
+w: 0.99970984
+
+2020-05-17 14:22:39,076|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,076|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,076|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0037723
+    y: 0.5
+    z: 3.1113596
+  }
+  rotation {
+    x: 1.0634896E-9
+    y: 0.023978984
+    z: 1.8284574E-8
+    w: 0.9997125
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,077|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.0634896E-9
+y: 0.023978984
+z: 1.8284574E-8
+w: 0.9997125
+
+2020-05-17 14:22:39,092|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,093|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,093|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0044303
+    y: 0.5
+    z: 3.1250727
+  }
+  rotation {
+    x: 1.0673671E-9
+    y: 0.02376698
+    z: 1.828435E-8
+    w: 0.9997176
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,094|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.0673671E-9
+y: 0.02376698
+z: 1.828435E-8
+w: 0.9997176
+
+2020-05-17 14:22:39,109|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,109|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,110|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0051346
+    y: 0.5
+    z: 3.139879
+  }
+  rotation {
+    x: 1.5282553E-9
+    y: 0.023442373
+    z: 2.085068E-8
+    w: 0.9997252
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,110|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.5282553E-9
+y: 0.023442373
+z: 2.085068E-8
+w: 0.9997252
+
+2020-05-17 14:22:39,126|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,126|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,126|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0058637
+    y: 0.5
+    z: 3.1554124
+  }
+  rotation {
+    x: 1.9928141E-9
+    y: 0.023012742
+    z: 2.3413937E-8
+    w: 0.9997352
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,127|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.9928141E-9
+y: 0.023012742
+z: 2.3413937E-8
+w: 0.9997352
+
+2020-05-17 14:22:39,142|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,143|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,143|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0066195
+    y: 0.5
+    z: 3.1718168
+  }
+  rotation {
+    x: -6.6083174E-9
+    y: 0.022473969
+    z: 1.2869109E-8
+    w: 0.99974746
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,143|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -6.6083174E-9
+y: 0.022473969
+z: 1.2869109E-8
+w: 0.99974746
+
+2020-05-17 14:22:39,159|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,159|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,160|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.007364
+    y: 0.5
+    z: 3.188367
+  }
+  rotation {
+    x: -9.4465635E-9
+    y: 0.021827446
+    z: 1.3058756E-8
+    w: 0.99976176
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,163|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -9.4465635E-9
+y: 0.021827446
+z: 1.3058756E-8
+w: 0.99976176
+
+2020-05-17 14:22:39,176|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,176|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,176|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0081005
+    y: 0.5
+    z: 3.2052252
+  }
+  rotation {
+    x: -1.2280079E-8
+    y: 0.021057077
+    z: 1.3253413E-8
+    w: 0.9997783
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,177|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.2280079E-8
+y: 0.021057077
+z: 1.3253413E-8
+w: 0.9997783
+
+2020-05-17 14:22:39,192|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,192|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,193|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0087852
+    y: 0.5
+    z: 3.2214694
+  }
+  rotation {
+    x: -1.2268861E-8
+    y: 0.02021106
+    z: 1.32638E-8
+    w: 0.9997958
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,193|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.2268861E-8
+y: 0.02021106
+z: 1.32638E-8
+w: 0.9997958
+
+2020-05-17 14:22:39,209|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,209|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,210|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.00946
+    y: 0.5
+    z: 3.2381516
+  }
+  rotation {
+    x: -1.5096267E-8
+    y: 0.019232849
+    z: 1.3468175E-8
+    w: 0.99981505
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,210|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5096267E-8
+y: 0.019232849
+z: 1.3468175E-8
+w: 0.99981505
+
+2020-05-17 14:22:39,225|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,226|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,226|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0100923
+    y: 0.5
+    z: 3.2545774
+  }
+  rotation {
+    x: -1.79192E-8
+    y: 0.018163633
+    z: 1.3679532E-8
+    w: 0.9998351
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,226|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.79192E-8
+y: 0.018163633
+z: 1.3679532E-8
+w: 0.9998351
+
+2020-05-17 14:22:39,243|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,243|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,244|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.010725
+    y: 0.5
+    z: 3.2719927
+  }
+  rotation {
+    x: -2.0736303E-8
+    y: 0.016910817
+    z: 1.390055E-8
+    w: 0.999857
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,244|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.0736303E-8
+y: 0.016910817
+z: 1.390055E-8
+w: 0.999857
+
+2020-05-17 14:22:39,259|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,259|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,260|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0112658
+    y: 0.50000006
+    z: 3.2879689
+  }
+  rotation {
+    x: -1.0808147E-8
+    y: 0.015661253
+    z: 9.125001E-9
+    w: 0.9998774
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,260|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.0808147E-8
+y: 0.015661253
+z: 9.125001E-9
+w: 0.9998774
+
+2020-05-17 14:22:39,276|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,276|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,276|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.011797
+    y: 0.50000006
+    z: 3.3049173
+  }
+  rotation {
+    x: -1.3945177E-8
+    y: 0.014222838
+    z: 6.191807E-9
+    w: 0.9998989
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,277|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.3945177E-8
+y: 0.014222838
+z: 6.191807E-9
+w: 0.9998989
+
+2020-05-17 14:22:39,291|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,291|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,291|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.012249
+    y: 0.50000006
+    z: 3.3208084
+  }
+  rotation {
+    x: -1.3936195E-8
+    y: 0.012775031
+    z: 6.211992E-9
+    w: 0.9999184
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,292|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.3936195E-8
+y: 0.012775031
+z: 6.211992E-9
+w: 0.9999184
+
+2020-05-17 14:22:39,308|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,308|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,309|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.012684
+    y: 0.50000006
+    z: 3.3378232
+  }
+  rotation {
+    x: -1.708201E-8
+    y: 0.011111214
+    z: 3.2991958E-9
+    w: 0.9999383
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,309|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.708201E-8
+y: 0.011111214
+z: 3.2991958E-9
+w: 0.9999383
+
+2020-05-17 14:22:39,324|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,324|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,325|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013042
+    y: 0.50000006
+    z: 3.353932
+  }
+  rotation {
+    x: -2.0234381E-8
+    y: 0.009434071
+    z: 4.0009315E-10
+    w: 0.99995553
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,325|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.0234381E-8
+y: 0.009434071
+z: 4.0009315E-10
+w: 0.99995553
+
+2020-05-17 14:22:39,341|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,341|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,341|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0133586
+    y: 0.50000006
+    z: 3.370721
+  }
+  rotation {
+    x: -2.3393802E-8
+    y: 0.0075754593
+    z: -2.48125E-9
+    w: 0.99997133
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,342|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.3393802E-8
+y: 0.0075754593
+z: -2.48125E-9
+w: 0.99997133
+
+2020-05-17 14:22:39,357|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,358|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,358|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013606
+    y: 0.50000006
+    z: 3.3870604
+  }
+  rotation {
+    x: -2.6561121E-8
+    y: 0.0056619574
+    z: -5.3464673E-9
+    w: 0.99998397
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,358|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.6561121E-8
+y: 0.0056619574
+z: -5.3464673E-9
+w: 0.99998397
+
+2020-05-17 14:22:39,374|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,374|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,377|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0137935
+    y: 0.50000006
+    z: 3.4036293
+  }
+  rotation {
+    x: -2.6572017E-8
+    y: 0.0036138007
+    z: -5.2920535E-9
+    w: 0.9999935
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,378|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.6572017E-8
+y: 0.0036138007
+z: -5.2920535E-9
+w: 0.9999935
+
+2020-05-17 14:22:39,391|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,391|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,391|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013916
+    y: 0.50000006
+    z: 3.4205554
+  }
+  rotation {
+    x: -2.9755405E-8
+    y: 0.0014089913
+    z: -8.127067E-9
+    w: 0.999999
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,392|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.9755405E-8
+y: 0.0014089913
+z: -8.127067E-9
+w: 0.999999
+
+2020-05-17 14:22:39,407|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,407|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,408|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013962
+    y: 0.50000006
+    z: 3.4367595
+  }
+  rotation {
+    x: -3.294732E-8
+    y: -7.121229E-4
+    z: -1.0947927E-8
+    w: 0.99999976
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,408|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.294732E-8
+y: -7.121229E-4
+z: -1.0947927E-8
+w: 0.99999976
+
+2020-05-17 14:22:39,429|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,430|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,430|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013938
+    y: 0.50000006
+    z: 3.4535365
+  }
+  rotation {
+    x: -3.6149167E-8
+    y: -0.0029082287
+    z: -1.37496805E-8
+    w: 0.99999577
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,430|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.6149167E-8
+y: -0.0029082287
+z: -1.37496805E-8
+w: 0.99999577
+
+2020-05-17 14:22:39,440|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,441|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,441|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0138426
+    y: 0.50000006
+    z: 3.4698927
+  }
+  rotation {
+    x: -3.1248526E-8
+    y: -0.005049268
+    z: -9.763233E-9
+    w: 0.99998724
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,441|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1248526E-8
+y: -0.005049268
+z: -9.763233E-9
+w: 0.99998724
+
+2020-05-17 14:22:39,457|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,457|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,458|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013675
+    y: 0.50000006
+    z: 3.4864767
+  }
+  rotation {
+    x: -3.1430297E-8
+    y: -0.00722015
+    z: -1.2840706E-8
+    w: 0.99997395
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,459|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1430297E-8
+y: -0.00722015
+z: -1.2840706E-8
+w: 0.99997395
+
+2020-05-17 14:22:39,474|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,474|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,474|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.013431
+    y: 0.50000006
+    z: 3.5033915
+  }
+  rotation {
+    x: -3.145865E-8
+    y: -0.009434438
+    z: -1.2771077E-8
+    w: 0.9999555
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,474|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.145865E-8
+y: -0.009434438
+z: -1.2771077E-8
+w: 0.9999555
+
+2020-05-17 14:22:39,490|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,491|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,491|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0131254
+    y: 0.50000006
+    z: 3.5195866
+  }
+  rotation {
+    x: -3.1659766E-8
+    y: -0.011554593
+    z: -1.5845814E-8
+    w: 0.99993324
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,491|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1659766E-8
+y: -0.011554593
+z: -1.5845814E-8
+w: 0.99993324
+
+2020-05-17 14:22:39,507|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,508|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,508|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.012738
+    y: 0.50000006
+    z: 3.5363307
+  }
+  rotation {
+    x: -3.1875242E-8
+    y: -0.013746782
+    z: -1.8914301E-8
+    w: 0.9999055
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,508|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1875242E-8
+y: -0.013746782
+z: -1.8914301E-8
+w: 0.9999055
+
+2020-05-17 14:22:39,524|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,524|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,524|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.012274
+    y: 0.50000006
+    z: 3.5532212
+  }
+  rotation {
+    x: -3.2104563E-8
+    y: -0.015958376
+    z: -2.197814E-8
+    w: 0.9998727
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,525|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.2104563E-8
+y: -0.015958376
+z: -2.197814E-8
+w: 0.9998727
+
+2020-05-17 14:22:39,540|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,540|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,540|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0117617
+    y: 0.50000006
+    z: 3.569267
+  }
+  rotation {
+    x: -3.2344637E-8
+    y: -0.018059524
+    z: -2.5041482E-8
+    w: 0.9998369
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,541|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.2344637E-8
+y: -0.018059524
+z: -2.5041482E-8
+w: 0.9998369
+
+2020-05-17 14:22:39,557|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,557|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,557|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.011152
+    y: 0.50000006
+    z: 3.5861385
+  }
+  rotation {
+    x: -3.085198E-8
+    y: -0.020268992
+    z: -2.463001E-8
+    w: 0.9997946
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,557|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.085198E-8
+y: -0.020268992
+z: -2.463001E-8
+w: 0.9997946
+
+2020-05-17 14:22:39,573|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,573|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,574|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0104933
+    y: 0.50000006
+    z: 3.6023762
+  }
+  rotation {
+    x: -3.09043E-8
+    y: -0.0223958
+    z: -2.4564324E-8
+    w: 0.99974924
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,574|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.09043E-8
+y: -0.0223958
+z: -2.4564324E-8
+w: 0.99974924
+
+2020-05-17 14:22:39,590|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,590|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,590|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0097475
+    y: 0.50000006
+    z: 3.619015
+  }
+  rotation {
+    x: -3.1171712E-8
+    y: -0.024575392
+    z: -2.7620157E-8
+    w: 0.99969804
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,591|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1171712E-8
+y: -0.024575392
+z: -2.7620157E-8
+w: 0.99969804
+
+2020-05-17 14:22:39,607|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,607|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,607|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.008912
+    y: 0.50000006
+    z: 3.6359928
+  }
+  rotation {
+    x: -3.145374E-8
+    y: -0.026799694
+    z: -3.067039E-8
+    w: 0.9996408
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,608|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.145374E-8
+y: -0.026799694
+z: -3.067039E-8
+w: 0.9996408
+
+2020-05-17 14:22:39,623|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,623|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,624|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0080523
+    y: 0.50000006
+    z: 3.652016
+  }
+  rotation {
+    x: -3.0785646E-8
+    y: -0.028899303
+    z: -3.1133098E-8
+    w: 0.9995824
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,624|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.0785646E-8
+y: -0.028899303
+z: -3.1133098E-8
+w: 0.9995824
+
+2020-05-17 14:22:39,640|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,640|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,641|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.007082
+    y: 0.50000006
+    z: 3.6687865
+  }
+  rotation {
+    x: -3.108763E-8
+    y: -0.03109723
+    z: -3.4177774E-8
+    w: 0.9995164
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,641|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.108763E-8
+y: -0.03109723
+z: -3.4177774E-8
+w: 0.9995164
+
+2020-05-17 14:22:39,656|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,657|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,657|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0060663
+    y: 0.50000006
+    z: 3.6850896
+  }
+  rotation {
+    x: -3.1400653E-8
+    y: -0.03323437
+    z: -3.7220055E-8
+    w: 0.9994476
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,657|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1400653E-8
+y: -0.03323437
+z: -3.7220055E-8
+w: 0.9994476
+
+2020-05-17 14:22:39,672|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,672|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,672|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.00496
+    y: 0.50000006
+    z: 3.7017019
+  }
+  rotation {
+    x: -3.1481694E-8
+    y: -0.035412434
+    z: -3.7151537E-8
+    w: 0.99937284
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,672|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1481694E-8
+y: -0.035412434
+z: -3.7151537E-8
+w: 0.99937284
+
+2020-05-17 14:22:39,689|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,689|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,689|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0037932
+    y: 0.50000006
+    z: 3.718145
+  }
+  rotation {
+    x: -3.1815027E-8
+    y: -0.037568815
+    z: -4.018817E-8
+    w: 0.99929404
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,689|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.1815027E-8
+y: -0.037568815
+z: -4.018817E-8
+w: 0.99929404
+
+2020-05-17 14:22:39,705|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,705|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,706|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.002549
+    y: 0.5000001
+    z: 3.7346647
+  }
+  rotation {
+    x: -2.3914474E-8
+    y: -0.03973578
+    z: -3.443148E-8
+    w: 0.99921024
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,706|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.3914474E-8
+y: -0.03973578
+z: -3.443148E-8
+w: 0.99921024
+
+2020-05-17 14:22:39,722|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,722|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,722|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 5.0012197
+    y: 0.5000001
+    z: 3.7513506
+  }
+  rotation {
+    x: -2.4256101E-8
+    y: -0.041925102
+    z: -3.7476312E-8
+    w: 0.9991208
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,723|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.4256101E-8
+y: -0.041925102
+z: -3.7476312E-8
+w: 0.9991208
+
+2020-05-17 14:22:39,739|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,739|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,739|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9998465
+    y: 0.5000001
+    z: 3.7676878
+  }
+  rotation {
+    x: -2.4609083E-8
+    y: -0.04406914
+    z: -4.0517815E-8
+    w: 0.99902856
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,739|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.4609083E-8
+y: -0.04406914
+z: -4.0517815E-8
+w: 0.99902856
+
+2020-05-17 14:22:39,755|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,755|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,755|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.998388
+    y: 0.5000001
+    z: 3.78419
+  }
+  rotation {
+    x: -2.4975932E-8
+    y: -0.046235513
+    z: -4.35543E-8
+    w: 0.99893063
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,756|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.4975932E-8
+y: -0.046235513
+z: -4.35543E-8
+w: 0.99893063
+
+2020-05-17 14:22:39,771|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,772|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,772|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9968576
+    y: 0.5000001
+    z: 3.8006854
+  }
+  rotation {
+    x: -2.4975932E-8
+    y: -0.046235513
+    z: -4.35543E-8
+    w: 0.99893063
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,772|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.4975932E-8
+y: -0.046235513
+z: -4.35543E-8
+w: 0.99893063
+
+2020-05-17 14:22:39,788|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,788|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,789|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9953275
+    y: 0.5000001
+    z: 3.817182
+  }
+  rotation {
+    x: -2.5249667E-8
+    y: -0.04612786
+    z: -4.664388E-8
+    w: 0.9989356
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,789|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.5249667E-8
+y: -0.04612786
+z: -4.664388E-8
+w: 0.9989356
+
+2020-05-17 14:22:39,805|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,805|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,805|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9937897
+    y: 0.5000001
+    z: 3.8337955
+  }
+  rotation {
+    x: -2.551698E-8
+    y: -0.045910217
+    z: -4.9733238E-8
+    w: 0.99894553
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,805|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.551698E-8
+y: -0.045910217
+z: -4.9733238E-8
+w: 0.99894553
+
+2020-05-17 14:22:39,821|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,822|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,822|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.992281
+    y: 0.5000001
+    z: 3.8501744
+  }
+  rotation {
+    x: -2.5777227E-8
+    y: -0.045589514
+    z: -5.2822298E-8
+    w: 0.99896026
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,822|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.5777227E-8
+y: -0.045589514
+z: -5.2822298E-8
+w: 0.99896026
+
+2020-05-17 14:22:39,838|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,838|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,838|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.990772
+    y: 0.5000001
+    z: 3.8666723
+  }
+  rotation {
+    x: -2.602906E-8
+    y: -0.04515881
+    z: -5.591131E-8
+    w: 0.99897987
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,839|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.602906E-8
+y: -0.04515881
+z: -5.591131E-8
+w: 0.99897987
+
+2020-05-17 14:22:39,855|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,855|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,855|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.989245
+    y: 0.5000001
+    z: 3.8835247
+  }
+  rotation {
+    x: -2.5998151E-8
+    y: -0.044606596
+    z: -5.5925685E-8
+    w: 0.99900466
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,855|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.5998151E-8
+y: -0.044606596
+z: -5.5925685E-8
+w: 0.99900466
+
+2020-05-17 14:22:39,871|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,872|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,872|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9878
+    y: 0.5000001
+    z: 3.8996725
+  }
+  rotation {
+    x: -2.6233442E-8
+    y: -0.043974392
+    z: -5.9017275E-8
+    w: 0.9990327
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,872|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.6233442E-8
+y: -0.043974392
+z: -5.9017275E-8
+w: 0.9990327
+
+2020-05-17 14:22:39,888|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,888|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,889|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.986332
+    y: 0.5000001
+    z: 3.916316
+  }
+  rotation {
+    x: -2.6456553E-8
+    y: -0.043213274
+    z: -6.210952E-8
+    w: 0.9990659
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,889|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.6456553E-8
+y: -0.043213274
+z: -6.210952E-8
+w: 0.9990659
+
+2020-05-17 14:22:39,904|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,905|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,905|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.984914
+    y: 0.5000001
+    z: 3.93268
+  }
+  rotation {
+    x: -2.6668632E-8
+    y: -0.04235915
+    z: -6.520156E-8
+    w: 0.9991025
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,905|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.6668632E-8
+y: -0.04235915
+z: -6.520156E-8
+w: 0.9991025
+
+2020-05-17 14:22:39,921|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,921|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,921|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9835114
+    y: 0.5000001
+    z: 3.9491868
+  }
+  rotation {
+    x: -2.6867323E-8
+    y: -0.04139003
+    z: -6.8294014E-8
+    w: 0.99914306
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,922|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.6867323E-8
+y: -0.04139003
+z: -6.8294014E-8
+w: 0.99914306
+
+2020-05-17 14:22:39,938|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,938|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,938|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9821177
+    y: 0.5000002
+    z: 3.965979
+  }
+  rotation {
+    x: -1.919764E-8
+    y: -0.040292896
+    z: -6.212342E-8
+    w: 0.99918795
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,939|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.919764E-8
+y: -0.040292896
+z: -6.212342E-8
+w: 0.99918795
+
+2020-05-17 14:22:39,954|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,954|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,954|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9808064
+    y: 0.5000002
+    z: 3.9822097
+  }
+  rotation {
+    x: -1.9125237E-8
+    y: -0.03912854
+    z: -6.214575E-8
+    w: 0.99923426
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,955|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.9125237E-8
+y: -0.03912854
+z: -6.214575E-8
+w: 0.99923426
+
+2020-05-17 14:22:39,971|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,971|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,971|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.979504
+    y: 0.5000002
+    z: 3.9988098
+  }
+  rotation {
+    x: -1.8509375E-8
+    y: -0.037829027
+    z: -6.5430946E-8
+    w: 0.99928427
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,971|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.8509375E-8
+y: -0.037829027
+z: -6.5430946E-8
+w: 0.99928427
+
+2020-05-17 14:22:39,987|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:39,988|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:39,988|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.978258
+    y: 0.5000002
+    z: 4.015245
+  }
+  rotation {
+    x: -1.7879117E-8
+    y: -0.03643598
+    z: -6.871305E-8
+    w: 0.99933606
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:39,988|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.7879117E-8
+y: -0.03643598
+z: -6.871305E-8
+w: 0.99933606
+
+2020-05-17 14:22:40,004|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,004|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,005|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9770517
+    y: 0.5000002
+    z: 4.031768
+  }
+  rotation {
+    x: -1.7232017E-8
+    y: -0.034928054
+    z: -7.199225E-8
+    w: 0.9993899
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,005|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.7232017E-8
+y: -0.034928054
+z: -7.199225E-8
+w: 0.9993899
+
+2020-05-17 14:22:40,021|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,021|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,021|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9758797
+    y: 0.5000002
+    z: 4.048515
+  }
+  rotation {
+    x: -1.656576E-8
+    y: -0.03328923
+    z: -7.526855E-8
+    w: 0.9994458
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,021|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.656576E-8
+y: -0.03328923
+z: -7.526855E-8
+w: 0.9994458
+
+2020-05-17 14:22:40,037|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,038|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,038|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.974792
+    y: 0.5000002
+    z: 4.0648236
+  }
+  rotation {
+    x: -1.5884522E-8
+    y: -0.03158874
+    z: -7.854058E-8
+    w: 0.999501
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,038|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5884522E-8
+y: -0.03158874
+z: -7.854058E-8
+w: 0.999501
+
+2020-05-17 14:22:40,054|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,054|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,054|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.973746
+    y: 0.5000002
+    z: 4.081357
+  }
+  rotation {
+    x: -1.5740595E-8
+    y: -0.029757421
+    z: -7.8569556E-8
+    w: 0.9995572
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,054|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5740595E-8
+y: -0.029757421
+z: -7.8569556E-8
+w: 0.9995572
+
+2020-05-17 14:22:40,070|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,070|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,071|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.972734
+    y: 0.5000002
+    z: 4.0983367
+  }
+  rotation {
+    x: -1.5018827E-8
+    y: -0.02776334
+    z: -8.183938E-8
+    w: 0.99961454
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,071|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5018827E-8
+y: -0.02776334
+z: -8.183938E-8
+w: 0.99961454
+
+2020-05-17 14:22:40,086|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,087|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,087|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.971839
+    y: 0.5000002
+    z: 4.1144357
+  }
+  rotation {
+    x: -1.4284809E-8
+    y: -0.025771024
+    z: -8.5103366E-8
+    w: 0.9996679
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,087|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.4284809E-8
+y: -0.025771024
+z: -8.5103366E-8
+w: 0.9996679
+
+2020-05-17 14:22:40,103|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,103|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,103|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9709744
+    y: 0.5000002
+    z: 4.1311903
+  }
+  rotation {
+    x: -1.3521517E-8
+    y: -0.02358738
+    z: -8.836409E-8
+    w: 0.9997218
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,104|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.3521517E-8
+y: -0.02358738
+z: -8.836409E-8
+w: 0.9997218
+
+2020-05-17 14:22:40,120|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,120|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,120|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.970177
+    y: 0.5000002
+    z: 4.148082
+  }
+  rotation {
+    x: -1.27419595E-8
+    y: -0.021374416
+    z: -9.1619E-8
+    w: 0.9997716
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,120|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.27419595E-8
+y: -0.021374416
+z: -9.1619E-8
+w: 0.9997716
+
+2020-05-17 14:22:40,136|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,136|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,136|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.969493
+    y: 0.5000002
+    z: 4.16408
+  }
+  rotation {
+    x: -1.195979E-8
+    y: -0.019278731
+    z: -9.4866245E-8
+    w: 0.99981415
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,137|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.195979E-8
+y: -0.019278731
+z: -9.4866245E-8
+w: 0.99981415
+
+2020-05-17 14:22:40,153|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,153|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,153|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9688544
+    y: 0.5000002
+    z: 4.1806345
+  }
+  rotation {
+    x: -1.1754037E-8
+    y: -0.017110508
+    z: -9.489196E-8
+    w: 0.9998536
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,153|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.1754037E-8
+y: -0.017110508
+z: -9.489196E-8
+w: 0.9998536
+
+2020-05-17 14:22:40,169|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,169|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,170|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9682875
+    y: 0.5000002
+    z: 4.197191
+  }
+  rotation {
+    x: -1.094477E-8
+    y: -0.014942203
+    z: -9.813217E-8
+    w: 0.99988836
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,170|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.094477E-8
+y: -0.014942203
+z: -9.813217E-8
+w: 0.99988836
+
+2020-05-17 14:22:40,186|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,186|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,186|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9677887
+    y: 0.5000002
+    z: 4.213878
+  }
+  rotation {
+    x: -1.0120431E-8
+    y: -0.012757165
+    z: -1.0136625E-7
+    w: 0.99991864
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,186|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.0120431E-8
+y: -0.012757165
+z: -1.0136625E-7
+w: 0.99991864
+
+2020-05-17 14:22:40,202|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,203|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,203|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.967369
+    y: 0.5000002
+    z: 4.230312
+  }
+  rotation {
+    x: -9.286115E-9
+    y: -0.010605396
+    z: -1.0459366E-7
+    w: 0.9999438
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,203|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -9.286115E-9
+y: -0.010605396
+z: -1.0459366E-7
+w: 0.9999438
+
+2020-05-17 14:22:40,219|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,219|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,220|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9670177
+    y: 0.5000002
+    z: 4.2468753
+  }
+  rotation {
+    x: -8.4367855E-9
+    y: -0.008436913
+    z: -1.0781487E-7
+    w: 0.9999644
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,220|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -8.4367855E-9
+y: -0.008436913
+z: -1.0781487E-7
+w: 0.9999644
+
+2020-05-17 14:22:40,235|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,235|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,236|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.966738
+    y: 0.5000002
+    z: 4.263439
+  }
+  rotation {
+    x: -7.574172E-9
+    y: -0.0062684836
+    z: -1.11029685E-7
+    w: 0.9999804
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,236|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -7.574172E-9
+y: -0.0062684836
+z: -1.11029685E-7
+w: 0.9999804
+
+2020-05-17 14:22:40,252|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,252|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,252|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9665294
+    y: 0.5000002
+    z: 4.2800913
+  }
+  rotation {
+    x: -7.3321194E-9
+    y: -0.004088602
+    z: -1.11045935E-7
+    w: 0.9999917
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,252|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -7.3321194E-9
+y: -0.004088602
+z: -1.11045935E-7
+w: 0.9999917
+
+2020-05-17 14:22:40,269|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,269|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,269|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9663906
+    y: 0.5000002
+    z: 4.297045
+  }
+  rotation {
+    x: -6.4434404E-9
+    y: -0.001869285
+    z: -1.14252714E-7
+    w: 0.99999833
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,269|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -6.4434404E-9
+y: -0.001869285
+z: -1.14252714E-7
+w: 0.99999833
+
+2020-05-17 14:22:40,285|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,286|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,286|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9663305
+    y: 0.5000002
+    z: 4.313138
+  }
+  rotation {
+    x: -5.5544556E-9
+    y: 2.3731531E-4
+    z: -1.1745226E-7
+    w: 1.0
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,286|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -5.5544556E-9
+y: 2.3731531E-4
+z: -1.1745226E-7
+w: 1.0
+
+2020-05-17 14:22:40,302|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,302|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,302|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9663386
+    y: 0.5000002
+    z: 4.3299594
+  }
+  rotation {
+    x: -4.6411786E-9
+    y: 0.0024392263
+    z: -1.206458E-7
+    w: 0.999997
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,302|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -4.6411786E-9
+y: 0.0024392263
+z: -1.206458E-7
+w: 0.999997
+
+2020-05-17 14:22:40,319|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,319|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,319|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.966421
+    y: 0.5000002
+    z: 4.3469152
+  }
+  rotation {
+    x: -3.71235E-9
+    y: 0.004658727
+    z: -1.2383278E-7
+    w: 0.99998915
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,320|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -3.71235E-9
+y: 0.004658727
+z: -1.2383278E-7
+w: 0.99998915
+
+2020-05-17 14:22:40,335|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,335|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,336|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9665694
+    y: 0.5000002
+    z: 4.362837
+  }
+  rotation {
+    x: -2.7872524E-9
+    y: 0.0067429175
+    z: -1.2701264E-7
+    w: 0.9999773
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,336|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.7872524E-9
+y: 0.0067429175
+z: -1.2701264E-7
+w: 0.9999773
+
+2020-05-17 14:22:40,351|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,352|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,352|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.966793
+    y: 0.5000002
+    z: 4.379402
+  }
+  rotation {
+    x: -2.5118085E-9
+    y: 0.008911433
+    z: -1.270184E-7
+    w: 0.9999603
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,352|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -2.5118085E-9
+y: 0.008911433
+z: -1.270184E-7
+w: 0.9999603
+
+2020-05-17 14:22:40,368|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,369|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,369|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.967088
+    y: 0.5000002
+    z: 4.395966
+  }
+  rotation {
+    x: -1.5562862E-9
+    y: 0.011079906
+    z: -1.3018985E-7
+    w: 0.9999386
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,369|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -1.5562862E-9
+y: 0.011079906
+z: -1.3018985E-7
+w: 0.9999386
+
+2020-05-17 14:22:40,385|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,385|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,385|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9674573
+    y: 0.5000002
+    z: 4.412616
+  }
+  rotation {
+    x: -5.8618743E-10
+    y: 0.013259747
+    z: -1.3335459E-7
+    w: 0.9999121
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,386|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: -5.8618743E-10
+y: 0.013259747
+z: -1.3335459E-7
+w: 0.9999121
+
+2020-05-17 14:22:40,401|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,402|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,402|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.967894
+    y: 0.5000002
+    z: 4.429089
+  }
+  rotation {
+    x: 3.938744E-10
+    y: 0.015416591
+    z: -1.3651257E-7
+    w: 0.9998812
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,402|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 3.938744E-10
+y: 0.015416591
+z: -1.3651257E-7
+w: 0.9998812
+
+2020-05-17 14:22:40,418|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,418|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,419|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.968405
+    y: 0.5000002
+    z: 4.445648
+  }
+  rotation {
+    x: 1.3884635E-9
+    y: 0.017584877
+    z: -1.3966375E-7
+    w: 0.9998454
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,419|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.3884635E-9
+y: 0.017584877
+z: -1.3966375E-7
+w: 0.9998454
+
+2020-05-17 14:22:40,435|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,435|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,435|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.968996
+    y: 0.5000002
+    z: 4.4624553
+  }
+  rotation {
+    x: 1.6804009E-9
+    y: 0.019674826
+    z: -1.3966054E-7
+    w: 0.99980646
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,435|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.6804009E-9
+y: 0.019674826
+z: -1.3966054E-7
+w: 0.99980646
+
+2020-05-17 14:22:40,451|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,452|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,452|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.969638
+    y: 0.5000002
+    z: 4.478759
+  }
+  rotation {
+    x: 2.6595175E-9
+    y: 0.021597885
+    z: -1.4280342E-7
+    w: 0.99976677
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,452|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 2.6595175E-9
+y: 0.021597885
+z: -1.4280342E-7
+w: 0.99976677
+
+2020-05-17 14:22:40,468|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,468|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,468|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.970319
+    y: 0.5000002
+    z: 4.4945145
+  }
+  rotation {
+    x: 3.6390535E-9
+    y: 0.023445794
+    z: -1.4594015E-7
+    w: 0.9997251
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,468|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 3.6390535E-9
+y: 0.023445794
+z: -1.4594015E-7
+w: 0.9997251
+
+2020-05-17 14:22:40,484|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,485|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,485|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.971017
+    y: 0.5000002
+    z: 4.509391
+  }
+  rotation {
+    x: 4.612456E-9
+    y: 0.02517953
+    z: -1.4907114E-7
+    w: 0.99968296
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,485|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 4.612456E-9
+y: 0.02517953
+z: -1.4907114E-7
+w: 0.99968296
+
+2020-05-17 14:22:40,501|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,502|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,502|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9717264
+    y: 0.5000002
+    z: 4.52347
+  }
+  rotation {
+    x: 5.5800995E-9
+    y: 0.026808737
+    z: -1.5219663E-7
+    w: 0.9996406
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,502|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 5.5800995E-9
+y: 0.026808737
+z: -1.5219663E-7
+w: 0.9996406
+
+2020-05-17 14:22:40,518|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,518|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,518|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9724455
+    y: 0.50000024
+    z: 4.536871
+  }
+  rotation {
+    x: 6.130222E-9
+    y: 0.028346721
+    z: -1.4266863E-7
+    w: 0.9995982
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,518|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 6.130222E-9
+y: 0.028346721
+z: -1.4266863E-7
+w: 0.9995982
+
+2020-05-17 14:22:40,534|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,534|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,535|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9731426
+    y: 0.50000024
+    z: 4.549154
+  }
+  rotation {
+    x: 6.3295786E-9
+    y: 0.029743511
+    z: -1.4265991E-7
+    w: 0.9995576
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,535|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 6.3295786E-9
+y: 0.029743511
+z: -1.4265991E-7
+w: 0.9995576
+
+2020-05-17 14:22:40,550|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,550|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,550|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.973834
+    y: 0.50000024
+    z: 4.56076
+  }
+  rotation {
+    x: 7.25245E-9
+    y: 0.031049281
+    z: -1.4577536E-7
+    w: 0.99951786
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,551|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 7.25245E-9
+y: 0.031049281
+z: -1.4577536E-7
+w: 0.99951786
+
+2020-05-17 14:22:40,567|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,567|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,567|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9745193
+    y: 0.50000024
+    z: 4.571781
+  }
+  rotation {
+    x: 8.170575E-9
+    y: 0.032273397
+    z: -1.4888617E-7
+    w: 0.99947906
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,568|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 8.170575E-9
+y: 0.032273397
+z: -1.4888617E-7
+w: 0.99947906
+
+2020-05-17 14:22:40,583|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,583|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,584|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9751477
+    y: 0.50000024
+    z: 4.5815005
+  }
+  rotation {
+    x: 9.071239E-9
+    y: 0.033337362
+    z: -1.519933E-7
+    w: 0.9994442
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,584|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 9.071239E-9
+y: 0.033337362
+z: -1.519933E-7
+w: 0.9994442
+
+2020-05-17 14:22:40,600|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,600|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,600|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.975758
+    y: 0.50000024
+    z: 4.5906367
+  }
+  rotation {
+    x: 9.965132E-9
+    y: 0.03431979
+    z: -1.5509639E-7
+    w: 0.9994109
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,600|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 9.965132E-9
+y: 0.03431979
+z: -1.5509639E-7
+w: 0.9994109
+
+2020-05-17 14:22:40,616|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,617|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,617|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.97633
+    y: 0.50000024
+    z: 4.5989504
+  }
+  rotation {
+    x: 1.0847339E-8
+    y: 0.035194483
+    z: -1.5819592E-7
+    w: 0.9993805
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,617|ERROR|pool-1-thread-10|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.0847339E-8
+y: 0.035194483
+z: -1.5819592E-7
+w: 0.9993805
+
+2020-05-17 14:22:40,634|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,634|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,634|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9768786
+    y: 0.50000024
+    z: 4.606736
+  }
+  rotation {
+    x: 1.0973351E-8
+    y: 0.035990555
+    z: -1.5818722E-7
+    w: 0.99935216
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,634|ERROR|pool-1-thread-2|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.0973351E-8
+y: 0.035990555
+z: -1.5818722E-7
+w: 0.99935216
+
+2020-05-17 14:22:40,650|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,650|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,650|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9773417
+    y: 0.50000024
+    z: 4.613155
+  }
+  rotation {
+    x: 1.1823912E-8
+    y: 0.03662483
+    z: -1.6128433E-7
+    w: 0.9993291
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,650|ERROR|pool-1-thread-3|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.1823912E-8
+y: 0.03662483
+z: -1.6128433E-7
+w: 0.9993291
+
+2020-05-17 14:22:40,666|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,667|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,667|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9777675
+    y: 0.50000024
+    z: 4.618956
+  }
+  rotation {
+    x: 1.2663329E-8
+    y: 0.03717199
+    z: -1.6437842E-7
+    w: 0.9993089
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,667|ERROR|pool-1-thread-4|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.2663329E-8
+y: 0.03717199
+z: -1.6437842E-7
+w: 0.9993089
+
+2020-05-17 14:22:40,683|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,683|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,683|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.978142
+    y: 0.50000024
+    z: 4.623982
+  }
+  rotation {
+    x: 1.34880755E-8
+    y: 0.037615843
+    z: -1.6746995E-7
+    w: 0.9992923
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,683|ERROR|pool-1-thread-5|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.34880755E-8
+y: 0.037615843
+z: -1.6746995E-7
+w: 0.9992923
+
+2020-05-17 14:22:40,700|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,700|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,700|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9784636
+    y: 0.50000024
+    z: 4.6282516
+  }
+  rotation {
+    x: 1.4297171E-8
+    y: 0.037956305
+    z: -1.7055916E-7
+    w: 0.9992794
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,700|ERROR|pool-1-thread-6|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.4297171E-8
+y: 0.037956305
+z: -1.7055916E-7
+w: 0.9992794
+
+2020-05-17 14:22:40,716|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,717|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,717|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.978716
+    y: 0.50000024
+    z: 4.631569
+  }
+  rotation {
+    x: 1.508738E-8
+    y: 0.038180284
+    z: -1.7364651E-7
+    w: 0.99927086
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,717|ERROR|pool-1-thread-7|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.508738E-8
+y: 0.038180284
+z: -1.7364651E-7
+w: 0.99927086
+
+2020-05-17 14:22:40,733|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,733|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,733|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9789166
+    y: 0.50000024
+    z: 4.634191
+  }
+  rotation {
+    x: 1.510842E-8
+    y: 0.038301352
+    z: -1.7364471E-7
+    w: 0.99926627
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,733|ERROR|pool-1-thread-8|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.510842E-8
+y: 0.038301352
+z: -1.7364471E-7
+w: 0.99926627
+
+2020-05-17 14:22:40,749|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,749|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,749|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9790454
+    y: 0.50000024
+    z: 4.635871
+  }
+  rotation {
+    x: 1.5862238E-8
+    y: 0.038313888
+    z: -1.7673187E-7
+    w: 0.9992658
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,750|ERROR|pool-1-thread-9|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.5862238E-8
+y: 0.038313888
+z: -1.7673187E-7
+w: 0.9992658
+
+2020-05-17 14:22:40,766|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,766|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,767|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.9791164
+    y: 0.50000024
+    z: 4.636793
+  }
+  rotation {
+    x: 1.6613125E-8
+    y: 0.038313888
+    z: -1.7981615E-7
+    w: 0.9992658
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,767|ERROR|pool-1-thread-11|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.6613125E-8
+y: 0.038313888
+z: -1.7981615E-7
+w: 0.9992658
+
+2020-05-17 14:22:40,783|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:40,783|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:5   methodId:0
+2020-05-17 14:22:40,783|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.gameserver.logic.controller.SceneController.updatePosition(SceneController.java:23)
+transform {
+  position {
+    x: 4.979121
+    y: 0.50000024
+    z: 4.6368566
+  }
+  rotation {
+    x: 1.7363263E-8
+    y: 0.038313888
+    z: -1.8289734E-7
+    w: 0.9992658
+  }
+}
+com.zemel.gameserver.logic.player.GamePlayer@3731b937
+2020-05-17 14:22:40,784|ERROR|pool-1-thread-12|Caller+0	 at com.zemel.framework.bean.room.BaseRoom.updatePlace(BaseRoom.java:111)
+postion:  x: 1.7363263E-8
+y: 0.038313888
+z: -1.8289734E-7
+w: 0.9992658
+
+2020-05-17 14:22:42,130|ERROR|nioEventLoopGroup-4-4|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelInactive(WebSocketFrameHandler.java:77)
+disconnectChannelHandlerContext(handler, [id: 0xef4f066e, L:/127.0.0.1:5000 ! R:/127.0.0.1:7250])
+2020-05-17 14:22:45,251|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelActive(WebSocketFrameHandler.java:48)
+active[id: 0xad19feb5, L:/127.0.0.1:5000 - R:/127.0.0.1:7270]
+2020-05-17 14:22:45,260|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 14:22:45,260|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.userEventTriggered(WebSocketFrameHandler.java:85)
+心跳
+2020-05-17 14:22:45,301|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:46,611|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:22:46,611|ERROR|pool-1-thread-1|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.invokeMethod(ISelfDrivenControllerComponent.java:63)
+invoke method controller:3   methodId:1
+2020-05-17 14:23:45,248|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:24:45,249|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:25:45,253|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:26:45,257|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:27:45,263|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:28:45,267|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:29:45,271|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:30:45,276|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:31:45,281|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:32:45,286|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:33:45,291|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:34:45,295|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:35:45,300|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:36:45,304|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:37:45,310|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:38:45,312|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:39:45,317|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:40:45,322|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:41:45,326|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:42:45,331|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:43:45,336|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:44:45,339|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:45:45,353|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:46:45,363|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:47:45,372|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:48:45,387|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:49:45,396|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:50:45,400|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:51:45,413|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:52:45,429|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:53:45,433|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:54:45,437|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:55:45,442|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:56:45,447|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:57:45,451|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:58:45,455|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 14:59:45,460|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:00:45,464|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:01:45,469|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:02:45,472|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:03:45,477|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:04:45,483|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:05:45,486|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:06:45,491|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:07:45,495|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:08:45,505|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:09:45,507|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:10:45,509|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:11:45,521|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:12:45,526|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:13:45,531|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:14:45,535|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:15:45,540|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:16:45,553|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:17:45,557|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:18:45,562|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:19:45,566|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:20:45,571|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:21:45,575|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:22:45,580|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:23:45,585|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:24:45,588|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:25:45,593|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:26:45,597|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:27:45,602|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:28:45,606|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:29:45,611|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.CommonWSMessageHandler.process(CommonWSMessageHandler.java:20)
+message
+2020-05-17 15:30:30,058|ERROR|nioEventLoopGroup-4-5|Caller+0	 at com.zemel.framework.socket.netty.handler.WebSocketFrameHandler.channelInactive(WebSocketFrameHandler.java:77)
+disconnectChannelHandlerContext(handler, [id: 0xad19feb5, L:/127.0.0.1:5000 ! R:/127.0.0.1:7270])
+2020-05-17 15:30:31,055|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-17 15:30:31,070|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.destroy(EhCacheManagerFactoryBean.java:192)
+Shutting down EhCache CacheManager
+2020-05-17 15:30:31,078|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-17 15:30:31,079|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-17 15:30:31,079|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-17 15:30:31,079|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-05-17 15:30:31,080|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed

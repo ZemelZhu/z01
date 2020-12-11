@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+message CommonMsgPB{
+    int32 code = 1; //协议号
+    bytes body = 2; //包体
+}

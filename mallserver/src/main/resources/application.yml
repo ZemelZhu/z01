@@ -1,0 +1,29 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true #是否启用http上传处理
+      max-request-size: 200MB #最大请求文件的大小
+      max-file-size: 20MB #设置单个文件最大长度
+  cache:
+    ehcache:
+      config: classpath:/ehcache.xml
+
+mybatis-plus:
+  configuration:
+    cache-enabled: true
+    map-underscore-to-camel-case: true
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+WeChatLoginConfig:
+  loginUrl: https://api.weixin.qq.com/sns/jscode2session?appId=%s&secret=%s&js_code=%s&grant_type=authorization_code
+  appId: wxf01a8e9f51667f3a
+  secret: ea3c4629871efdcb87f87c2e5053011e
+server:
+  ssl:
+    key-store: classpath:3973172_www.strhjd.com.pfx
+    key-store-password: U8IQPYKE
+    key-store-type: PKCS12
+  servlet:
+    context-path: /mallserver
+  name: mallserver

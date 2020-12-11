@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    include: common
+  main:
+    web-application-type: none
+netty:
+  port: 5000
+  address: "/websocket"
+  host: "127.0.0.1"
+server:
+  workerId: 1
+  decenterId: 10
+  dev: true

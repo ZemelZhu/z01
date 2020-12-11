@@ -1,0 +1,296 @@
+2020-05-17 00:12:33,991|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting WebserverApplication on DESKTOP-3EKU3ND with PID 22516 (F:\code\Z01\server\z01\webserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-05-17 00:12:33,994|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-05-17 00:12:34,047|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-17 00:12:34,047|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-17 00:12:34,929|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-17 00:12:34,931|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-17 00:12:34,961|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 16ms. Found 0 Redis repository interfaces.
+2020-05-17 00:12:35,154|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'adminUserInfoMapper' and 'com.zemel.data.mapping.AdminUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,155|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'commodityInfoMapper' and 'com.zemel.data.mapping.CommodityInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,155|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallAfterSaleInfoMapper' and 'com.zemel.data.mapping.MallAfterSaleInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,155|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallConfigInfoMapper' and 'com.zemel.data.mapping.MallConfigInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,156|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallLabelInfoMapper' and 'com.zemel.data.mapping.MallLabelInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,156|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallOrderInfoMapper' and 'com.zemel.data.mapping.MallOrderInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,156|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallUserInfoMapper' and 'com.zemel.data.mapping.MallUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,156|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'playerInfoMapper' and 'com.zemel.data.mapping.PlayerInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,156|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'roomInfoMapper' and 'com.zemel.data.mapping.RoomInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,156|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'serverClusterMapping' and 'com.zemel.data.mapping.ServerClusterMapping' mapperInterface. Bean already defined with the same name!
+2020-05-17 00:12:35,157|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.*.mapping]' package. Please check your configuration.
+2020-05-17 00:12:35,443|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-17 00:12:35,932|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8082 (http)
+2020-05-17 00:12:35,945|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8082"]
+2020-05-17 00:12:35,945|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-05-17 00:12:35,946|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-17 00:12:36,097|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-05-17 00:12:36,097|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 2049 ms
+2020-05-17 00:12:36,219|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-05-17 00:12:36,222|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-05-17 00:12:36,230|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-17 00:12:36,230|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-05-17 00:12:36,231|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-05-17 00:12:36,232|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-17 00:12:36,232|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-17 00:12:36,233|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-05-17 00:12:36,233|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@444828fb
+2020-05-17 00:12:36,322|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-05-17 00:12:36,444|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-05-17 00:12:36,696|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getA1
+2020-05-17 00:12:36,708|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-17 00:12:36,708|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ITimerComponent.start(ITimerComponent.java:141)
+添加每天定时器,数量:1
+2020-05-17 00:12:37,089|ERROR|restartedMain|Caller+0	 at com.zemel.framework.socket.netty.net.AbstractNettyAdapter.start(AbstractNettyAdapter.java:38)
+netty start5001
+2020-05-17 00:12:37,175|INFO |restartedMain|Caller+0	 at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.afterPropertiesSet(EhCacheManagerFactoryBean.java:134)
+Initializing EhCache CacheManager
+2020-05-17 00:12:37,395|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 00:12:38,008|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-05-17 00:12:38,233|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8082"]
+2020-05-17 00:12:38,249|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8082 (http) with context path ''
+2020-05-17 00:12:38,251|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started WebserverApplication in 5.09 seconds (JVM running for 5.965)
+2020-05-17 00:13:52,678|INFO |http-nio-8082-exec-1|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 00:13:52,678|INFO |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-05-17 00:13:52,686|INFO |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 8 ms
+2020-05-17 00:13:52,731|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 00:13:52,782|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 00:13:52,783|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 00:13:58,923|ERROR|http-nio-8082-exec-3|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 00:13:58,926|ERROR|http-nio-8082-exec-3|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 00:13:58,926|ERROR|http-nio-8082-exec-3|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 00:41:40,725|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-17 00:41:40,741|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-17 00:41:40,741|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.destroy(EhCacheManagerFactoryBean.java:192)
+Shutting down EhCache CacheManager
+2020-05-17 00:41:40,757|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-17 00:41:40,757|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-17 00:41:40,757|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-17 00:41:40,757|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-05-17 00:41:40,757|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler
+2020-05-17 13:13:56,829|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55)
+Starting WebserverApplication on DESKTOP-3EKU3ND with PID 13000 (F:\code\Z01\server\z01\webserver\target\classes started by 13265 in F:\code\Z01\server\z01)
+2020-05-17 13:13:56,836|INFO |restartedMain|Caller+0	 at org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655)
+The following profiles are active: common
+2020-05-17 13:13:56,913|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-05-17 13:13:56,913|INFO |restartedMain|Caller+0	 at org.springframework.boot.logging.DeferredLog.logTo(DeferredLog.java:225)
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-05-17 13:13:57,904|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249)
+Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-05-17 13:13:57,907|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127)
+Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-05-17 13:13:57,941|INFO |restartedMain|Caller+0	 at org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187)
+Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2020-05-17 13:13:58,095|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'adminUserInfoMapper' and 'com.zemel.data.mapping.AdminUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,096|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'commodityInfoMapper' and 'com.zemel.data.mapping.CommodityInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,096|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallAfterSaleInfoMapper' and 'com.zemel.data.mapping.MallAfterSaleInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,096|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallConfigInfoMapper' and 'com.zemel.data.mapping.MallConfigInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,096|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallLabelInfoMapper' and 'com.zemel.data.mapping.MallLabelInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,097|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallOrderInfoMapper' and 'com.zemel.data.mapping.MallOrderInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,097|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'mallUserInfoMapper' and 'com.zemel.data.mapping.MallUserInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,097|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'playerInfoMapper' and 'com.zemel.data.mapping.PlayerInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,097|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'roomInfoMapper' and 'com.zemel.data.mapping.RoomInfoMapper' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,097|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+Skipping MapperFactoryBean with name 'serverClusterMapping' and 'com.zemel.data.mapping.ServerClusterMapping' mapperInterface. Bean already defined with the same name!
+2020-05-17 13:13:58,098|WARN |restartedMain|Caller+0	 at org.mybatis.logging.Logger.warn(Logger.java:44)
+No MyBatis mapper was found in '[com.zemel.*.mapping]' package. Please check your configuration.
+2020-05-17 13:13:58,347|INFO |restartedMain|Caller+0	 at org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330)
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-17 13:13:58,699|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92)
+Tomcat initialized with port(s): 8082 (http)
+2020-05-17 13:13:58,710|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing ProtocolHandler ["http-nio-8082"]
+2020-05-17 13:13:58,710|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting service [Tomcat]
+2020-05-17 13:13:58,711|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-05-17 13:13:58,904|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring embedded WebApplicationContext
+2020-05-17 13:13:58,904|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284)
+Root WebApplicationContext: initialization completed in 1991 ms
+2020-05-17 13:13:59,054|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1220)
+Using default implementation for ThreadExecutor
+2020-05-17 13:13:59,057|INFO |restartedMain|Caller+0	 at org.quartz.simpl.SimpleThreadPool.initialize(SimpleThreadPool.java:268)
+Job execution threads will use class loader of thread: restartedMain
+2020-05-17 13:13:59,070|INFO |restartedMain|Caller+0	 at org.quartz.core.SchedulerSignalerImpl.<init>(SchedulerSignalerImpl.java:61)
+Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2020-05-17 13:13:59,070|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.<init>(QuartzScheduler.java:229)
+Quartz Scheduler v.2.3.2 created.
+2020-05-17 13:13:59,071|INFO |restartedMain|Caller+0	 at org.quartz.simpl.RAMJobStore.initialize(RAMJobStore.java:155)
+RAMJobStore initialized.
+2020-05-17 13:13:59,072|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.initialize(QuartzScheduler.java:294)
+Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 4 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2020-05-17 13:13:59,073|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1374)
+Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2020-05-17 13:13:59,073|INFO |restartedMain|Caller+0	 at org.quartz.impl.StdSchedulerFactory.instantiate(StdSchedulerFactory.java:1378)
+Quartz scheduler version: 2.3.2
+2020-05-17 13:13:59,073|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.setJobFactory(QuartzScheduler.java:2293)
+JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@454d27ba
+2020-05-17 13:13:59,205|INFO |restartedMain|Caller+0	 at com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56)
+Init DruidDataSource
+2020-05-17 13:13:59,329|INFO |restartedMain|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:928)
+{dataSource-1} inited
+2020-05-17 13:13:59,574|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ISelfDrivenControllerComponent.start(ISelfDrivenControllerComponent.java:46)
+init method getA1
+2020-05-17 13:13:59,586|INFO |restartedMain|Caller+0	 at org.quartz.core.QuartzScheduler.start(QuartzScheduler.java:547)
+Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2020-05-17 13:13:59,587|ERROR|restartedMain|Caller+0	 at com.zemel.framework.component.ITimerComponent.start(ITimerComponent.java:141)
+添加每天定时器,数量:1
+2020-05-17 13:14:00,010|ERROR|restartedMain|Caller+0	 at com.zemel.framework.socket.netty.net.AbstractNettyAdapter.start(AbstractNettyAdapter.java:38)
+netty start5001
+2020-05-17 13:14:00,095|INFO |restartedMain|Caller+0	 at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.afterPropertiesSet(EhCacheManagerFactoryBean.java:134)
+Initializing EhCache CacheManager
+2020-05-17 13:14:00,546|INFO |restartedMain|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171)
+Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-17 13:14:01,356|INFO |restartedMain|Caller+0	 at org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer(OptionalLiveReloadServer.java:58)
+LiveReload server is running on port 35729
+2020-05-17 13:14:01,717|INFO |restartedMain|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Starting ProtocolHandler ["http-nio-8082"]
+2020-05-17 13:14:01,737|INFO |restartedMain|Caller+0	 at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204)
+Tomcat started on port(s): 8082 (http) with context path ''
+2020-05-17 13:14:01,740|INFO |restartedMain|Caller+0	 at org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61)
+Started WebserverApplication in 5.83 seconds (JVM running for 7.663)
+2020-05-17 13:17:31,681|INFO |http-nio-8082-exec-1|Caller+0	 at org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-17 13:17:31,681|INFO |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525)
+Initializing Servlet 'dispatcherServlet'
+2020-05-17 13:17:31,687|INFO |http-nio-8082-exec-1|Caller+0	 at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547)
+Completed initialization in 6 ms
+2020-05-17 13:17:31,723|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 13:17:31,766|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 13:17:31,767|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 13:17:49,669|ERROR|http-nio-8082-exec-2|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 13:17:49,672|ERROR|http-nio-8082-exec-2|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 13:17:49,672|ERROR|http-nio-8082-exec-2|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 13:28:56,670|ERROR|http-nio-8082-exec-4|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:2
+2020-05-17 13:28:56,676|ERROR|http-nio-8082-exec-4|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 13:28:56,676|ERROR|http-nio-8082-exec-4|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 13:38:36,172|ERROR|http-nio-8082-exec-7|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:2
+2020-05-17 13:38:36,177|ERROR|http-nio-8082-exec-7|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 13:38:36,177|ERROR|http-nio-8082-exec-7|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 13:38:41,516|ERROR|http-nio-8082-exec-8|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 13:38:41,518|ERROR|http-nio-8082-exec-8|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 13:38:41,518|ERROR|http-nio-8082-exec-8|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 14:22:37,104|ERROR|http-nio-8082-exec-9|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 14:22:37,111|ERROR|http-nio-8082-exec-9|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 14:22:37,112|ERROR|http-nio-8082-exec-9|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 14:22:45,162|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.webserver.controller.PlayerAccountController.login(PlayerAccountController.java:26)
+playerId:1 password:1
+2020-05-17 14:22:45,164|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.framework.interceptor.MyResponseAdvice.beforeBodyWrite(MyResponseAdvice.java:57)
+/PlayerAccount/Login|
+2020-05-17 14:22:45,165|ERROR|http-nio-8082-exec-1|Caller+0	 at com.zemel.framework.until.RequestUtil.log(RequestUtil.java:18)
+/PlayerAccount/Login|
+2020-05-17 15:30:29,162|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-17 15:30:29,182|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208)
+Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-17 15:30:29,182|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.cache.ehcache.EhCacheManagerFactoryBean.destroy(EhCacheManagerFactoryBean.java:192)
+Shutting down EhCache CacheManager
+2020-05-17 15:30:29,186|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:666)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2020-05-17 15:30:29,186|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.standby(QuartzScheduler.java:585)
+Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2020-05-17 15:30:29,186|INFO |SpringContextShutdownHook|Caller+0	 at org.quartz.core.QuartzScheduler.shutdown(QuartzScheduler.java:740)
+Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2020-05-17 15:30:29,195|INFO |SpringContextShutdownHook|Caller+0	 at com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:1823)
+{dataSource-1} closed
+2020-05-17 15:30:29,195|INFO |SpringContextShutdownHook|Caller+0	 at org.springframework.scheduling.quartz.SchedulerFactoryBean.destroy(SchedulerFactoryBean.java:845)
+Shutting down Quartz Scheduler

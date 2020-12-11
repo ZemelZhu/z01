@@ -1,0 +1,26 @@
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+message PlayerInfoPB {
+    int32 playerID = 1; // 用户ID
+    string unionID = 2; // unionID
+    string nickName = 3; // 昵称
+    string head = 4; // 用户头像
+    string phone = 5; // 手机号
+    string coin = 6; // 金币
+    int32 roomKey = 7; // 房间邀请码
+}
+enum playerCmdType {
+    Login = 0; // 登陆
+}
+message PlayerMsgCS {
+    playerCmdType cmdType = 1;
+    PlayerAccountPB playerAccountPB = 2;
+    PlayerInfoPB playerInfoPB =3;
+}
+message PlayerAccountPB{
+    int32 playerID = 1;
+    string password = 2;
+}
+message PlayerMsgSC {
+
+}

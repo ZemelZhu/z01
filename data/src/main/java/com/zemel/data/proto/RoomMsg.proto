@@ -1,0 +1,45 @@
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+import "SceneMsg.proto";
+enum RoomCmdType {
+    Cmd_CreateRoom = 0; // 创建房间
+    Cmd_EnterRoom = 1; // 加入房间
+    Cmd_ExitRoom = 2; // 退出房间
+    Cmd_SitDown = 3; // 坐下
+    Cmd_StandUp = 4; // 站起
+    Cmd_Fail = 5; // 错误提示
+    Cmd_Reconnect = 6; // 断线重连
+    Cmd_PairUp = 7; // 随机匹配
+    Cmd_RoomList = 8; // 获取房间列表
+    Cmd_Chat = 9; // 语音
+    Cmd_HandStart = 10; // 手动开始游戏
+    Cmd_AddPlayer = 11; // 添加玩家
+    Cmd_GetRoomInfo = 12; // 获取房间信息
+}
+message RoomMsgCS {
+    RoomCmdType cmdType = 1; // 命令类型
+    int32 key = 2; // 房间密码
+}
+message RoomMsgSC {
+    RoomCmdType cmdType = 1; // 命令类型
+    RoomInfoPB roomInfo = 2; // 房间信息
+    repeated PlaceDataSC placeData =3;// 玩家信息更新
+}
+message PlaceDataSC{
+    TransformPB transform = 1; // 位置
+    int32 placeID = 2;
+    int32 playerID = 3;
+}
+message RoomInfoPB {
+    int32 gameType = 1; // 游戏类型
+    int32 key = 2; // 房间密码
+    int32 roomType = 3; // 房间类型
+    int32 totalGames = 4; // 总局数
+    int32 creatorID = 5; // 创建者ID
+    int32 id = 6; // 房间ID
+    string nickName = 7; // 创建者昵称
+    int32 currentGames = 8; // 当前局数
+    int32 playerCount = 9; // 房间最大人数
+    int32 currentPlayerCount = 10; // 房间当前人数
+    string head = 11; // 头像
+}

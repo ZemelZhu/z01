@@ -1,0 +1,8 @@
+server:
+  port: 8082
+  workerId: 1
+  decenterId: 2
+  dev: true
+spring:
+  profiles:
+    include: common

@@ -1,0 +1,23 @@
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+message SceneMsgCS {
+    SceneCmdType cmdType = 1;
+    TransformPB transform = 2;
+    int32 playerID =3;
+}
+message PostionPB {
+    float x = 1;
+    float y = 2;
+    float z = 3;
+    float w =4;
+    float vertical = 5;
+    float horizontal = 6;
+}
+message TransformPB{
+    PostionPB position = 1;
+    PostionPB rotation = 2;
+    PostionPB scale = 3;
+}
+enum SceneCmdType {
+    UpdatePosition = 0;
+}

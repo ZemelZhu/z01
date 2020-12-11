@@ -1,0 +1,224 @@
+2020-02-28 12:39:32,391|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 12:39:32,392|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 12:39:32,392|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 12:39:32,392|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 12:39:32,392|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 12:39:32,392|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 12:39:32,392|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 12:39:32,393|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 12:39:32,702|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 12:39:32,702|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 12:42:55,799|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 12:42:55,799|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 12:42:55,799|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 12:42:55,799|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 12:42:55,801|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 12:42:55,802|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束
+2020-02-28 12:43:00,495|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 12:43:00,496|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 12:43:00,781|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 12:43:00,781|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 12:50:29,727|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 12:50:29,727|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 12:50:29,727|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 12:50:29,727|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 12:50:29,730|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 12:50:29,730|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 12:50:39,438|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 12:50:39,732|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 12:50:39,732|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 12:52:11,556|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 12:52:11,557|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 12:52:11,557|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 12:52:11,557|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 12:52:11,560|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 12:52:11,560|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束
+2020-02-28 12:52:17,197|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 12:52:17,197|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 12:52:17,197|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 12:52:17,197|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 12:52:17,198|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 12:52:17,198|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 12:52:17,198|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 12:52:17,198|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 12:52:17,486|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 12:52:17,487|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 12:55:21,140|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 12:55:21,140|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 12:55:21,140|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 12:55:21,141|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 12:55:21,143|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 12:55:21,143|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束
+2020-02-28 12:55:28,511|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 12:55:28,511|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 12:55:28,511|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 12:55:28,511|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 12:55:28,512|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 12:55:28,512|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 12:55:28,512|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 12:55:28,512|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 12:55:28,792|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 12:55:28,792|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 13:09:23,803|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 13:09:23,803|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 13:09:23,803|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 13:09:23,804|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 13:09:23,806|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 13:09:23,807|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束
+2020-02-28 13:09:46,033|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 13:09:46,033|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 13:09:46,033|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 13:09:46,033|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 13:09:46,034|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 13:09:46,034|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 13:09:46,034|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 13:09:46,034|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 13:09:46,333|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 13:09:46,333|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 13:10:09,532|INFO |Thread-11|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 13:10:09,532|INFO |Thread-11|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 13:10:09,532|INFO |Thread-11|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 13:10:09,543|INFO |Thread-11|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 13:10:09,545|INFO |Thread-11|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 13:10:09,545|INFO |Thread-11|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束
+2020-02-28 13:10:10,552|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:58)
+启动逻辑组件开始
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.RedisComponent 组件启动
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+RedisComponent 组件启动成功
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.SelfDrivenControllerComponent 组件启动
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+SelfDrivenControllerComponent 组件启动成功
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.TimerComponent 组件启动
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+TimerComponent 组件启动成功
+2020-02-28 13:10:10,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:61)
+com.zemel.webserver.component.WebServerComponent 组件启动
+2020-02-28 13:10:10,567|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:65)
+WebServerComponent 组件启动成功
+2020-02-28 13:10:10,567|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+启动逻辑组件结束
+2020-02-28 15:11:54,929|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:84)
+销毁逻辑组件开始
+2020-02-28 15:11:54,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+RedisComponent 组件销毁成功
+2020-02-28 15:11:54,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+SelfDrivenControllerComponent 组件销毁成功
+2020-02-28 15:11:54,932|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+TimerComponent 组件销毁成功
+2020-02-28 15:11:54,935|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:88)
+WebServerComponent 组件销毁成功
+2020-02-28 15:11:54,936|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:91)
+启动逻辑组件结束

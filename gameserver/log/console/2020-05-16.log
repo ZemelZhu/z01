@@ -1,0 +1,1170 @@
+2020-05-16 13:36:55,222|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:36:55,222|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:36:55,395|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:36:55,395|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:36:55,398|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:36:55,399|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:36:55,403|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:36:55,404|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:36:55,404|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:36:55,411|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:36:55,411|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:36:55,437|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:36:55,437|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:41:11,038|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:41:11,038|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:41:11,160|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:41:11,160|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:41:11,162|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:41:11,163|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:41:11,165|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:41:11,165|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:41:11,165|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:41:11,166|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:41:11,166|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:41:11,166|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:41:11,166|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:41:11,167|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:41:11,167|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:41:11,173|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:41:11,173|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:41:11,188|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:41:11,188|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:42:32,625|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:42:32,626|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:42:32,759|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:42:32,760|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:42:32,763|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:42:32,763|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:42:32,766|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:42:32,766|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:42:32,766|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:42:32,767|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:42:32,767|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:42:32,767|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:42:32,767|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:42:32,768|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:42:32,768|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:42:32,774|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:42:32,774|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:42:32,791|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:42:32,792|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:43:49,553|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:43:49,554|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:43:49,682|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:43:49,682|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:43:49,685|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:43:49,685|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:43:49,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:43:49,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:43:49,689|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:43:49,689|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:43:49,689|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:43:49,689|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:43:49,689|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:43:49,690|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:43:49,690|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:43:49,697|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:43:49,697|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:43:49,712|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:43:49,712|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:45:13,397|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 13:45:13,397|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 13:45:13,397|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 13:45:13,968|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:45:13,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:45:14,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:45:14,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:45:14,017|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:45:14,017|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:45:14,020|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:45:14,021|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:45:14,021|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:45:14,023|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:45:14,023|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:45:14,027|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:45:14,027|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:45:14,182|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 13:45:14,182|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 13:45:14,182|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 13:45:39,304|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:45:39,305|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:45:39,429|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:45:39,429|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:45:39,432|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:45:39,432|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:45:39,434|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:45:39,434|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:45:39,435|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:45:39,435|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:45:39,435|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:45:39,435|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:45:39,435|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:45:39,436|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:45:39,436|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:45:39,442|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:45:39,442|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:45:39,457|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:45:39,457|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:47:26,850|INFO |Thread-13|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 13:47:26,850|INFO |Thread-13|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 13:47:26,850|INFO |Thread-13|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 13:47:27,574|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:47:27,574|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:47:27,579|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:47:27,580|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:47:27,582|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:47:27,582|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:47:27,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:47:27,585|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:47:27,585|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:47:27,586|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:47:27,586|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:47:27,589|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:47:27,589|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:47:27,819|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 13:47:27,819|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 13:47:27,819|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 13:48:22,880|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:48:22,880|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:48:22,886|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:48:22,886|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:48:22,888|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:48:22,889|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:48:22,890|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:48:22,890|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:48:22,890|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:48:22,890|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:48:22,890|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:48:22,891|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:48:22,891|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:48:22,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:48:22,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:48:22,893|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:48:22,893|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:48:22,895|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:48:22,896|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:48:23,039|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 13:48:23,039|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 13:48:23,039|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 13:48:33,359|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:48:33,359|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:48:33,501|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:48:33,501|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:48:33,504|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:48:33,504|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:48:33,506|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:48:33,507|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:48:33,507|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:48:33,514|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:48:33,515|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:48:33,532|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:48:33,532|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 13:51:26,284|INFO |Thread-13|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 13:51:26,285|INFO |Thread-13|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 13:51:26,285|INFO |Thread-13|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 13:55:10,410|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 13:55:10,410|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 13:55:10,538|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 13:55:10,538|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 13:55:10,541|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 13:55:10,541|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 13:55:10,548|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 13:55:10,549|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 13:55:10,549|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 13:55:10,555|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 13:55:10,556|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 13:55:10,571|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 13:55:10,571|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 15:32:01,098|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 15:32:01,099|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 15:32:01,099|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 15:32:01,894|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 15:32:01,894|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 15:32:01,901|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 15:32:01,901|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 15:32:01,908|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 15:32:01,908|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 15:32:01,910|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 15:32:01,910|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 15:32:01,910|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 15:32:01,910|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 15:32:01,910|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 15:32:01,911|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 15:32:01,911|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 15:32:01,912|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 15:32:01,912|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 15:32:01,913|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 15:32:01,913|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 15:32:01,918|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 15:32:01,918|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 15:32:01,921|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 15:32:01,921|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 15:32:01,921|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 15:32:25,808|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 15:32:25,808|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 15:32:25,819|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 15:32:25,819|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 15:32:25,822|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 15:32:25,822|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:86)
+GameServerComponent 组件启动失败
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 15:32:25,824|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 15:32:25,825|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 15:32:25,825|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 15:32:25,827|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 15:32:25,827|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 15:32:25,831|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 15:32:25,831|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 15:32:26,376|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 15:32:26,376|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 15:32:26,377|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 16:54:20,737|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+***************************************************************************
+java.lang.IllegalArgumentException: datacenter Id can't be greater than 31 or less than 0
+	at com.zemel.framework.until.IDUtil.<init>(IDUtil.java:20)
+	at com.zemel.framework.ComponentManager.init(ComponentManager.java:34)
+	at com.zemel.framework.ComponentManager.start(ComponentManager.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:333)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.zemel.gameserver.GameserverApplication.main(GameserverApplication.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+***************************************************************************
+2020-05-16 16:54:20,737|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:112)
+start fail
+2020-05-16 16:54:54,146|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 16:54:59,812|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 16:54:59,813|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 16:55:00,267|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 16:55:00,268|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 16:55:00,271|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 16:55:00,271|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 16:55:09,002|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 16:55:09,002|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 16:55:09,002|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 16:55:09,002|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 16:55:09,002|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 16:55:09,002|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 16:55:09,003|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 16:55:09,003|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 16:55:09,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 16:55:09,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 16:55:09,055|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 16:55:09,055|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 21:56:27,242|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 21:56:27,242|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 21:56:27,242|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 21:56:27,246|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 21:56:27,246|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 21:56:27,247|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 21:56:27,247|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 21:56:27,247|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 21:56:27,247|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 21:56:27,247|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 21:56:35,230|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 21:56:35,231|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 21:56:35,615|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 21:56:35,615|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 21:56:35,618|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 21:56:35,618|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 21:56:35,637|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 21:56:35,637|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 21:56:35,637|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 21:56:35,638|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 21:56:35,638|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 21:56:35,638|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 21:56:35,639|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 21:56:35,639|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 21:56:35,647|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 21:56:35,647|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 21:56:35,668|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 21:56:35,668|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 21:57:09,963|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 21:57:09,964|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 21:57:09,964|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 21:57:09,967|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 21:57:09,967|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 21:57:09,967|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 21:57:09,967|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 21:57:09,968|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 21:57:09,968|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 21:57:09,968|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 21:57:15,217|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 21:57:15,218|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 21:57:15,655|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 21:57:15,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 21:57:15,659|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 21:57:15,659|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 21:57:15,681|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 21:57:15,681|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 21:57:15,681|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 21:57:15,681|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 21:57:15,682|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 21:57:15,682|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 21:57:15,683|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 21:57:15,683|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 21:57:15,692|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 21:57:15,692|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 21:57:15,714|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 21:57:15,715|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 21:57:37,382|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 21:57:37,382|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 21:57:37,382|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 21:57:37,386|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 21:59:32,745|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 21:59:32,745|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 21:59:33,122|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 21:59:33,122|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 21:59:33,125|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 21:59:33,125|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 21:59:33,145|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 21:59:33,145|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 21:59:33,145|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 21:59:33,145|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 21:59:33,145|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 21:59:33,145|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 21:59:33,146|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 21:59:33,146|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 21:59:33,154|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 21:59:33,154|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 21:59:33,175|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 21:59:33,175|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 22:01:55,927|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 22:01:55,928|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 22:01:55,928|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 22:01:55,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 22:01:55,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 22:01:55,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 22:01:55,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 22:01:55,931|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 22:01:55,932|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 22:01:55,932|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 22:02:48,917|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 22:02:48,918|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 22:02:49,288|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 22:02:49,288|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 22:02:49,291|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 22:02:49,291|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 22:02:49,310|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 22:02:49,310|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 22:02:49,310|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 22:02:49,310|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 22:02:49,310|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 22:02:49,310|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 22:02:49,311|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 22:02:49,311|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 22:02:49,319|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 22:02:49,319|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 22:02:49,340|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 22:02:49,340|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 22:03:22,820|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 22:03:22,820|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 22:03:22,820|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 22:03:22,823|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 22:03:22,823|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 22:03:22,823|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 22:03:22,824|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 22:03:22,824|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 22:03:22,824|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 22:03:22,824|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 22:03:26,374|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 22:03:26,375|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 22:05:03,615|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 22:05:03,615|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 22:05:11,629|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 22:05:11,629|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 22:05:11,633|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 22:05:11,633|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 22:05:11,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 22:05:11,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 22:05:11,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 22:05:11,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 22:05:11,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 22:05:11,656|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 22:05:11,657|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 22:05:11,658|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 22:05:11,666|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 22:05:11,666|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 22:05:11,674|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 22:05:11,675|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 22:17:17,308|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 22:17:17,308|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 22:17:17,308|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 22:17:17,312|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 22:17:17,312|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 22:17:17,313|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 22:17:17,313|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 22:17:17,313|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 22:17:17,313|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 22:17:17,313|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 22:17:18,089|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 22:17:18,090|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 22:17:18,110|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 22:17:18,111|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 22:17:18,115|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 22:17:18,115|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 22:17:18,128|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 22:17:18,128|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 22:17:18,128|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 22:17:18,128|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 22:17:18,128|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 22:17:18,128|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 22:17:18,129|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 22:17:18,129|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 22:17:18,130|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 22:17:18,130|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 22:17:18,133|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 22:17:18,133|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 22:17:18,292|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 22:17:18,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 22:17:18,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 22:17:18,297|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 22:17:18,297|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 22:17:18,297|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 22:17:18,297|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 22:17:18,298|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 22:17:18,298|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 22:17:18,298|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 23:00:38,912|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 23:00:38,912|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 23:00:41,286|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 23:00:41,286|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 23:00:41,290|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 23:00:41,290|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 23:00:41,314|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 23:00:41,314|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 23:00:41,314|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 23:00:41,314|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 23:00:41,314|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 23:00:41,314|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 23:00:41,315|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 23:00:41,315|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 23:00:41,323|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 23:00:41,323|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 23:00:41,344|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 23:00:41,344|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 23:00:46,492|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 23:00:46,492|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 23:00:46,492|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 23:00:46,495|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 23:00:46,496|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 23:00:46,496|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 23:00:46,496|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 23:00:46,496|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 23:00:46,496|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 23:00:46,496|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 23:00:47,319|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 23:00:47,319|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 23:00:49,346|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 23:00:49,346|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 23:00:49,349|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 23:00:49,350|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 23:00:49,365|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 23:00:49,365|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 23:00:49,365|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 23:00:49,365|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 23:00:49,365|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 23:00:49,365|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 23:00:49,366|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 23:00:49,367|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 23:00:49,368|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 23:00:49,368|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 23:00:49,373|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 23:00:49,373|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 23:00:49,579|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 23:00:49,579|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 23:00:49,579|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 23:00:49,582|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 23:00:49,582|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 23:00:49,582|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 23:00:49,583|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 23:00:49,583|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 23:00:49,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 23:00:49,584|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 23:12:44,781|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 23:12:44,781|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 23:12:47,172|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 23:12:47,172|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 23:12:47,176|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 23:12:47,176|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 23:12:47,200|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 23:12:47,200|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 23:12:47,200|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 23:12:47,200|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 23:12:47,200|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 23:12:47,200|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 23:12:47,201|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 23:12:47,201|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 23:12:47,209|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 23:12:47,210|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 23:12:47,230|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 23:12:47,230|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 23:12:58,567|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 23:12:58,567|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 23:12:58,567|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 23:12:58,570|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 23:12:58,570|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 23:12:58,571|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 23:12:58,571|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 23:12:58,571|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 23:12:58,571|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 23:12:58,571|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
+2020-05-16 23:22:46,222|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:75)
+启动逻辑组件开始
+2020-05-16 23:22:46,223|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.BridgeClientsComponent 组件启动
+2020-05-16 23:22:46,615|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+BridgeClientsComponent 组件启动成功
+2020-05-16 23:22:46,615|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameComponent 组件启动
+2020-05-16 23:22:46,618|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameComponent 组件启动成功
+2020-05-16 23:22:46,618|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.GameServerComponent 组件启动
+2020-05-16 23:22:46,642|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+GameServerComponent 组件启动成功
+2020-05-16 23:22:46,643|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.PlayerComponent 组件启动
+2020-05-16 23:22:46,643|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+PlayerComponent 组件启动成功
+2020-05-16 23:22:46,643|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.RoomComponent 组件启动
+2020-05-16 23:22:46,643|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+RoomComponent 组件启动成功
+2020-05-16 23:22:46,643|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.SelfDrivenControllerComponent 组件启动
+2020-05-16 23:22:46,644|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+SelfDrivenControllerComponent 组件启动成功
+2020-05-16 23:22:46,644|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.TimerComponent 组件启动
+2020-05-16 23:22:46,653|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+TimerComponent 组件启动成功
+2020-05-16 23:22:46,653|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:78)
+com.zemel.gameserver.logic.component.WebsocketClientConnectComponent 组件启动
+2020-05-16 23:22:46,662|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:82)
+WebsocketClientConnectComponent 组件启动成功
+2020-05-16 23:22:46,662|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:90)
+启动逻辑组件结束
+2020-05-16 23:26:32,617|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:101)
+销毁逻辑组件开始
+2020-05-16 23:26:32,617|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+BridgeClientsComponent 组件销毁成功
+2020-05-16 23:26:32,617|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameComponent 组件销毁成功
+2020-05-16 23:26:32,631|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+GameServerComponent 组件销毁成功
+2020-05-16 23:26:32,632|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+PlayerComponent 组件销毁成功
+2020-05-16 23:26:32,632|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+RoomComponent 组件销毁成功
+2020-05-16 23:26:32,632|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+SelfDrivenControllerComponent 组件销毁成功
+2020-05-16 23:26:32,633|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+TimerComponent 组件销毁成功
+2020-05-16 23:26:32,633|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+WebsocketClientConnectComponent 组件销毁成功
+2020-05-16 23:26:32,633|INFO |Thread-2|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:108)
+启动逻辑组件结束
