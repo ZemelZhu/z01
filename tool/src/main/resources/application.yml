@@ -13,7 +13,7 @@ spring:
 GenerateConfig:
   packageName: com.zemel.data.entiy
   isLomBok: true
-  generate: true
+  generate: false
   prefix: "{core:'Info',ts:'Log',mall:'Info'}"
   commonPrefix: "{common:'Info'}"
   databasesList: web1
@@ -23,7 +23,7 @@ GameServerProtoConfig:
   outPutPath: F:\code\Z01\server\z01\data\src\main\java\
   execPath: F:\code\Z01\server\z01\tool\tool
   protoName:
-  build: false
+  build: true
   buildJAVA: true
   buildJS: false
   buildCS: true

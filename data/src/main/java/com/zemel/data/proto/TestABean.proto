@@ -1,0 +1,15 @@
+
+syntax = "proto3";
+option java_package = "com.zemel.data.proto.entiy";
+import "TestBBean.proto";
+message TestABeanPB{
+    int32 id=1;
+    int64 aId=2;
+    int32 bid=3;
+    string name=4;
+    repeated string names=5;
+    repeated TestBBeanPB bBean=6;
+    repeated TestBBeanPB bbbBean=7;
+    repeated int32 hah=8;
+}
+

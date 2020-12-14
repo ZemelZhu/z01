@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.PostConstruct;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -28,8 +27,7 @@ public class CompileProtoBuid {
     private JSProtoConfig jsProtoConfig;
     @Autowired
     private CSProtoConfig csProtoConfig;
-    @PostConstruct
-    private void start() {
+    public void start() {
         if (gameServerProtoConfig.isBuild()) {
             LOGGER.error("===========CompileProtoBuid  start==============");
             LOGGER.error(""+gameServerProtoConfig);
@@ -88,7 +86,7 @@ public class CompileProtoBuid {
         String cmd = gameServerProtoConfig.getExecPath() + "/protoc.exe " + name + " --java_out=" + gameServerProtoConfig.getOutPutPath();
 //                Process exec = rt.exec(cmd);
         rt.exec(cmd, null, new File(gameServerProtoConfig.getInputPath()));
-        LOGGER.error("proto java build success");
+        LOGGER.error("proto java build success  "+name);
         LOGGER.error(cmd);
     }
 

@@ -1,0 +1,448 @@
+2020-12-12 17:32:49,297|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 17:32:49,297|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 17:32:49,703|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+Dbgenerate 组件启动成功
+2020-12-12 17:32:49,703|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 17:32:49,703|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 17:32:49,703|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 22:59:14,772|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 22:59:14,772|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 22:59:14,874|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+Dbgenerate 组件启动成功
+2020-12-12 22:59:14,874|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 22:59:14,875|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 22:59:14,875|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:00:16,994|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:00:16,994|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:00:17,087|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+Dbgenerate 组件启动成功
+2020-12-12 23:00:17,087|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:00:17,087|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:00:17,087|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:00:32,199|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:06:26,517|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:06:26,517|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:06:26,517|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:06:26,517|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:06:26,518|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:06:26,518|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:06:26,518|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:06:46,698|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:06:46,698|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:06:46,713|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:06:46,713|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:06:47,309|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:07:22,568|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:07:22,569|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:07:22,569|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:07:22,569|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:07:22,569|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:07:22,569|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:07:22,569|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:08:05,504|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:08:05,505|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:08:05,505|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:08:05,505|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:08:05,505|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:08:05,505|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:08:05,505|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:08:39,213|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:08:39,213|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:08:39,213|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:08:39,213|INFO |Thread-12|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:08:39,768|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:08:39,768|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:08:39,769|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:08:39,769|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:08:39,769|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:08:39,769|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:08:39,769|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:10:23,193|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:10:23,194|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:10:23,194|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:10:23,194|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:10:23,194|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:10:23,194|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:10:23,194|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:11:19,406|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:11:19,406|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:11:19,406|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:11:19,406|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:11:19,406|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:11:19,406|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:11:19,407|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:13:23,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:13:23,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:13:23,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:13:23,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:13:23,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:13:23,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:13:23,798|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:13:40,208|INFO |Thread-15|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:13:40,208|INFO |Thread-15|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:13:40,209|INFO |Thread-15|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:13:40,209|INFO |Thread-15|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:13:41,012|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:13:41,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:13:41,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:13:41,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:13:41,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:13:41,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:13:41,013|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:13:42,911|INFO |Thread-23|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:13:42,912|INFO |Thread-23|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:13:42,912|INFO |Thread-23|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:13:42,912|INFO |Thread-23|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:13:43,619|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:13:43,619|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:13:43,620|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:13:43,620|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:13:43,620|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:13:43,620|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:13:43,620|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:13:47,378|INFO |Thread-30|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:13:47,379|INFO |Thread-30|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:13:47,379|INFO |Thread-30|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:13:47,379|INFO |Thread-30|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:13:48,058|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:13:48,059|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:13:48,059|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:13:48,059|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:13:48,059|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:13:48,059|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:13:48,059|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:13:49,914|INFO |Thread-37|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:13:49,914|INFO |Thread-37|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:13:49,914|INFO |Thread-37|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:13:49,914|INFO |Thread-37|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:13:50,688|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:13:59,525|INFO |Thread-44|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:13:59,525|INFO |Thread-44|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:13:59,525|INFO |Thread-44|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:13:59,525|INFO |Thread-44|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:14:00,215|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:14:00,215|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:14:00,215|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:14:00,215|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:14:00,215|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:14:00,215|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:14:00,216|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:14:02,051|INFO |Thread-51|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:14:02,052|INFO |Thread-51|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:14:02,052|INFO |Thread-51|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:14:02,052|INFO |Thread-51|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:14:02,796|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:14:02,796|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:14:02,796|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:14:02,796|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:14:02,796|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:14:02,796|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:14:02,797|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:14:07,572|INFO |Thread-58|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:14:07,572|INFO |Thread-58|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:14:07,573|INFO |Thread-58|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:14:07,573|INFO |Thread-58|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:14:08,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:14:08,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:14:08,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:14:08,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:14:08,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:14:08,293|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:14:08,294|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:14:12,221|INFO |Thread-65|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:14:12,222|INFO |Thread-65|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:14:12,222|INFO |Thread-65|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:14:12,222|INFO |Thread-65|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:14:12,969|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:14:15,202|INFO |Thread-72|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:14:15,203|INFO |Thread-72|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:14:15,203|INFO |Thread-72|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:14:15,203|INFO |Thread-72|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:14:15,891|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:14:15,891|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:14:15,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:14:15,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:14:15,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:14:15,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:14:15,892|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:14:20,194|INFO |Thread-79|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:14:20,195|INFO |Thread-79|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:14:20,195|INFO |Thread-79|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:14:20,195|INFO |Thread-79|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:14:20,857|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:14:20,858|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:14:20,858|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:14:20,858|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:14:20,858|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:14:20,858|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:14:20,858|INFO |restartedMain|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:14:32,440|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:105)
+销毁逻辑组件开始
+2020-12-12 23:14:32,440|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+Dbgenerate 组件销毁成功
+2020-12-12 23:14:32,440|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:109)
+LogComponent 组件销毁成功
+2020-12-12 23:14:32,440|INFO |SpringContextShutdownHook|Caller+0	 at com.zemel.framework.ComponentManager.stop(ComponentManager.java:112)
+销毁逻辑组件结束
+2020-12-12 23:17:28,012|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:17:28,012|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:17:28,012|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:17:28,012|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:17:28,012|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:17:28,012|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:17:28,013|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:18:20,181|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:18:20,182|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:18:20,182|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:18:20,182|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:18:20,182|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:18:20,182|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:18:20,182|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束
+2020-12-12 23:19:37,365|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:77)
+启动逻辑组件开始
+2020-12-12 23:19:37,365|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.tool.generate.Dbgenerate 组件启动
+2020-12-12 23:19:37,365|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:88)
+Dbgenerate 组件启动失败
+2020-12-12 23:19:37,365|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.exit(ComponentManager.java:128)
+start fail
+2020-12-12 23:19:37,366|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:80)
+com.zemel.framework.component.LogComponent 组件启动
+2020-12-12 23:19:37,366|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:84)
+LogComponent 组件启动成功
+2020-12-12 23:19:37,366|INFO |main|Caller+0	 at com.zemel.framework.ComponentManager.start(ComponentManager.java:92)
+启动逻辑组件正常结束

@@ -2,7 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c86e76b-4ffa-4b19-9bf6-51b6094fa34a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/annotation/IMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/annotation/InnerMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/annotation/TerminalMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/config/ProtoGenerateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/pbgenerate/BuildProtoFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/pbgenerate/BuildProtoFileServiceImpl0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/pbgenerate/ProtoInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/testBean/JavaChangeFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/testBean/TestABean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/testBean/TestBBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/testBean/TestCBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/src/main/java/com/zemel/data/entiy/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/data/src/main/java/com/zemel/data/entiy/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/until/ClassUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/until/ClassUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/air-conditioning/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mall/META-INF/mall.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tool/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/proto/CompileProtoBuid.java" beforeDir="false" afterPath="$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/proto/CompileProtoBuid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tool/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/tool/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/entiy/PlayerDiyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/entiy/PlayerDiyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/entiy/ProjectInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/entiy/ProjectInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/entiy/ResourceInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/web1/src/main/java/com/zemel/web1/entiy/ResourceInfo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,9 +117,8 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.zemel.design.controller" />
-      <recent name="com.zemel.framework.component" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\code\java\idea\z01\gameserver\src\main\resources\proto" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.zemel.web1" />
@@ -118,8 +140,9 @@
       <recent name="com.zemel.mallserver.interceptor" />
       <recent name="com.zemel.framework.config" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\code\java\idea\z01\gameserver\src\main\resources\proto" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zemel.design.controller" />
+      <recent name="com.zemel.framework.component" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -145,13 +168,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyThread">
-    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zemel.note.thread.MyThread" />
-      <module name="note" />
+  <component name="RunManager" selected="Application.JavaChangeFile">
+    <configuration name="BuildProtoFileServiceImpl0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.tool.pbgenerate.BuildProtoFileServiceImpl0" />
+      <module name="tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zemel.note.thread.*" />
+          <option name="PATTERN" value="com.zemel.tool.pbgenerate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -159,12 +182,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QRCodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zemel.web_framework.utils.QRCodeUtils" />
-      <module name="web_framework" />
+    <configuration name="JavaChangeFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.tool.testBean.JavaChangeFile" />
+      <module name="tool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zemel.web_framework.utils.*" />
+          <option name="PATTERN" value="com.zemel.tool.testBean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zemel.note.thread.MyThread" />
+      <module name="note" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zemel.note.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,19 +227,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zemel.mallserver.services.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServletUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zemel.framework.until.ServletUtil" />
-      <module name="framework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.zemel.framework.until.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -288,11 +311,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.QRCodeUtils" />
-      <item itemvalue="Application.ServletUtil" />
       <item itemvalue="Application.QiNiuYunService" />
       <item itemvalue="Application.QiNiuYunService1" />
       <item itemvalue="Application.MyThread" />
+      <item itemvalue="Application.BuildProtoFileServiceImpl0" />
+      <item itemvalue="Application.JavaChangeFile" />
       <item itemvalue="Remote.120.25.26.183" />
       <item itemvalue="Spring Boot.GameserverApplication" />
       <item itemvalue="Spring Boot.ToolApplication" />
@@ -305,11 +328,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JavaChangeFile" />
+        <item itemvalue="Application.BuildProtoFileServiceImpl0" />
         <item itemvalue="Application.MyThread" />
         <item itemvalue="Application.QiNiuYunService1" />
         <item itemvalue="Application.QiNiuYunService" />
-        <item itemvalue="Application.ServletUtil" />
-        <item itemvalue="Application.QRCodeUtils" />
       </list>
     </recent_temporary>
   </component>
@@ -317,7 +340,17 @@
     <option name="allServicesViewState">
       <serviceView>
         <treeState>
-          <expand />
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@de039a43" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@de039a43" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@759fbf76" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
           <select />
         </treeState>
       </serviceView>
@@ -539,6 +572,9 @@
       <workItem from="1606875570380" duration="276000" />
       <workItem from="1606913177976" duration="3440000" />
       <workItem from="1607699935172" duration="1749000" />
+      <workItem from="1607763482088" duration="13991000" />
+      <workItem from="1607832361520" duration="682000" />
+      <workItem from="1607849660868" duration="12385000" />
     </task>
     <servers />
   </component>
@@ -652,9 +688,9 @@
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/concurrent/ConcurrentHashMap.java</url>
-          <line>836</line>
-          <option name="timeStamp" value="141" />
+          <url>file://$PROJECT_DIR$/tool/src/main/java/com/zemel/tool/pbgenerate/BuildProtoFileServiceImpl0.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/framework/src/main/java/com.zemel.framework/until/ServletUtil.java</url>
